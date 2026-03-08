@@ -123,8 +123,8 @@ class Player extends BaseEntity {
     this.evolutionOverlay = this.game.add.sprite(0, 0, '').setRotation(-Math.PI / 2);
     this.updateEvolution();
 
-    this.sword = this.game.add.sprite(this.body.width / 2, this.body.height / 2, 'playerSword').setRotation(Math.PI / 4);
-    const swordShadowKey = this.createShadowTexture('playerSword');
+    this.sword = this.game.add.sprite(this.body.width / 2, this.body.height / 2, 'playerGun').setRotation(Math.PI / 4);
+    const swordShadowKey = this.createShadowTexture('playerGun');
     this.swordShadow = this.game.add.sprite(0, 0, swordShadowKey).setRotation(Math.PI / 4);
     this.swordShadow.setAlpha(0.085);
     this.swordContainer = this.game.add.container(0, 0, [this.sword]);
@@ -228,8 +228,8 @@ class Player extends BaseEntity {
           const skinBase = skins.player.name;
           this.body.setTexture(skinBase+'Body');
           this.shadow.setTexture(this.createShadowTexture(skinBase+'Body'));
-          this.sword.setTexture(skinBase+'Sword');
-          this.swordShadow.setTexture(this.createShadowTexture(skinBase+'Sword'));
+          this.sword.setTexture(skinBase+'Gun');
+          this.swordShadow.setTexture(this.createShadowTexture(skinBase+'Gun'));
         }).catch(() => {
           console.log('failed to load skin', this.skin);
         });
@@ -237,8 +237,8 @@ class Player extends BaseEntity {
           this.loadSkin(this.skin).then(() => {
           this.body.setTexture(this.skinName+'Body');
           this.shadow.setTexture(this.createShadowTexture(this.skinName+'Body'));
-          this.sword.setTexture(this.skinName+'Sword');
-          this.swordShadow.setTexture(this.createShadowTexture(this.skinName+'Sword'));
+          this.sword.setTexture(this.skinName+'Gun');
+          this.swordShadow.setTexture(this.createShadowTexture(this.skinName+'Gun'));
         }).catch(() => {
           console.log('failed to load skin', this.skin);
         });
@@ -258,7 +258,8 @@ class Player extends BaseEntity {
   }
 
   skinLoaded(id: number) {
-    return this.game.textures.exists(Object.values(skins).find(skin => skin.id === id)?.name+'Body');
+    return this.game.textures.exists(Object.values(skins).find(skin => skin.id === id)?.name+'Body')
+      && this.game.textures.exists(Object.values(skins).find(skin => skin.id === id)?.name+'Gun');
   }
 
   loadSkin(id: number) {
@@ -275,7 +276,7 @@ class Player extends BaseEntity {
         if(skin) {
           console.log('loading skin', skin.name, basePath + skin.bodyFileName);
         this.game.load.image(skin.name+'Body', basePath + skin.bodyFileName);
-        this.game.load.image(skin.name+'Sword', basePath + skin.swordFileName);
+        this.game.load.image(skin.name+'Gun', basePath + (skin.gunFileName || 'gun.png'));
 
         this.game.load.once(Phaser.Loader.Events.COMPLETE, () => {
           resolve();
@@ -415,6 +416,9 @@ class Player extends BaseEntity {
       if (data.flags[FlagTypes.ShockwaveHit]) {
         this.addShockwaveParticles();
       }
+      if (data.flags[FlagTypes.GunShoot]) {
+        this.addMuzzleFlash();
+      }
     }
   }
 
@@ -472,6 +476,29 @@ class Player extends BaseEntity {
   } catch (e) {
     console.log(e);
   }
+  }
+
+  addMuzzleFlash() {
+    if (this.game.game.loop.actualFps < 30) return;
+    try {
+      const angle = this.bodyContainer?.rotation || 0;
+      const gunTipDist = this.body.width * 0.7;
+      const flashX = this.container.x + Math.cos(angle) * gunTipDist;
+      const flashY = this.container.y + Math.sin(angle) * gunTipDist;
+      const particles = this.game.add.particles(flashX, flashY, 'muzzleFlash', {
+        maxParticles: 3,
+        scale: { start: 0.15, end: 0.02 },
+        speed: { min: 50, max: 150 },
+        lifespan: 150,
+        angle: { min: (angle * 180 / Math.PI) - 20, max: (angle * 180 / Math.PI) + 20 },
+        tint: 0xFFAA00,
+      });
+      particles.setDepth(46);
+      particles.setBlendMode(Phaser.BlendModes.ADD);
+      particles.once('complete', () => particles.destroy());
+    } catch (e) {
+      console.log(e);
+    }
   }
 
   addShockwaveParticles() {
@@ -723,7 +750,7 @@ class Player extends BaseEntity {
         this.swordLerpProgress = 1;
         this.swordRaiseStarted = false;
         // start decrease animation when the player is not holding it
-        if (this.game.controls.isInputUp(InputTypes.SwordSwing)) {
+        if (this.game.controls.isInputUp(InputTypes.Shoot)) {
           this.swordDecreaseStarted = true;
         }
       }
@@ -732,7 +759,7 @@ class Player extends BaseEntity {
       if (this.swordLerpProgress <= 0) {
         this.swordLerpProgress = 0;
         if(this.isMe && this.swordDecreaseStarted) {
-          this.game.controls.enableKeys([InputTypes.SwordThrow]);
+          this.game.controls.enableKeys([InputTypes.AltFire]);
         }
         this.swordDecreaseStarted = false;
       }
@@ -785,11 +812,11 @@ class Player extends BaseEntity {
     }
     pointer.updateWorldPoint(this.game.cameras.main);
 
-    if (this.game.controls.isInputDown(InputTypes.SwordSwing)) {
+    if (this.game.controls.isInputDown(InputTypes.Shoot)) {
       if (!(this.swordFlying || this.swordRaiseStarted || this.swordDecreaseStarted)) {
         if(!this.swordRaiseStarted) {
         this.swordRaiseStarted = true;
-        this.game.controls.disableKeys([InputTypes.SwordThrow], true);
+        this.game.controls.disableKeys([InputTypes.AltFire], true);
         }
       }
     }

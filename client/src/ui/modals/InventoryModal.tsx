@@ -23,6 +23,7 @@ interface Skin {
   buyable: boolean;
   swordFileName: string;
   bodyFileName: string;
+  gunFileName: string;
   price?: number;
   description?: string;
 

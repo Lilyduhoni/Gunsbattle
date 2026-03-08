@@ -32,15 +32,15 @@ export default class Game extends Phaser.Scene {
   private _adFinishHandler: (() => void) | null = null;
   private _visibilityHandler: (() => void) | null = null;
 
-	constructor() {
-		super('game');
+        constructor() {
+                super('game');
     this.gameState = new GameState(this);
     this.soundManager = new SoundManager(this);
     this.controls = new Controls(this);
     this.hud = new HUD(this);
-	}
+        }
 
-	init() {
+        init() {
     this.gameState.initialize();
     this.game.canvas.oncontextmenu = (e) => e.preventDefault();
     this.isMobile = this.game.device.os.android || this.game.device.os.iOS;
@@ -109,8 +109,8 @@ export default class Game extends Phaser.Scene {
     this.load.image('fireball', publicPath + '/assets/game/mobs/fireball.png');
     this.load.image('boulder', publicPath + '/assets/game/mobs/boulder.png');
     this.load.image('boulderShadow', publicPath + '/assets/game/mobs/boulderShadow.png');
-    this.load.image('swordProj', publicPath + '/assets/game/mobs/sword.png');
-    this.load.image('swordProjShadow', publicPath + '/assets/game/mobs/swordShadow.png');
+    this.load.image('swordProj', publicPath + '/assets/game/mobs/bullet.png');
+    this.load.image('swordProjShadow', publicPath + '/assets/game/mobs/bulletShadow.png');
     this.load.image('snowball', publicPath + '/assets/game/mobs/snowball.png');
     this.load.image('snowballShadow', publicPath + '/assets/game/mobs/snowballShadow.png');
     this.load.image('ornament1', publicPath + '/assets/game/mobs/ornament1.png');
@@ -163,6 +163,7 @@ export default class Game extends Phaser.Scene {
     this.load.image('discoOverlay', publicPath + '/assets/game/player/disco.png');
     this.load.image('butcherOverlay', publicPath + '/assets/game/player/butcher.png');
 
+    this.load.image('muzzleFlash', publicPath + '/assets/game/particles/muzzleFlash.png');
     this.load.image('hitParticle', publicPath + '/assets/game/particles/hit.png');
     this.load.image('starParticle', publicPath + '/assets/game/particles/star.png');
     this.load.image('arrowParticle', publicPath + '/assets/game/particles/arrow.png');
@@ -186,7 +187,7 @@ export default class Game extends Phaser.Scene {
     //   this.load.image(skin.name+'Sword', basePath + skin.swordFileName);
     // }
     this.load.image(skins.player.name+'Body', basePath + skins.player.bodyFileName);
-    this.load.image(skins.player.name+'Sword', basePath + skins.player.swordFileName);
+    this.load.image(skins.player.name+'Gun', basePath + 'gun.png');
 
 
 
@@ -314,7 +315,7 @@ export default class Game extends Phaser.Scene {
     });
   }
 
-	update(time: number, dt: number) {
+        update(time: number, dt: number) {
     dt = Math.min(dt, 100);
 
     if (!this.isReady) {

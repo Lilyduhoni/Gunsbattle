@@ -59,7 +59,7 @@ class Sword extends Entity {
 
   canSwing() {
     return !this.isFlying
-      && this.player.inputs.isInputDown(Types.Input.SwordSwing)
+      && this.player.inputs.isInputDown(Types.Input.Shoot)
       && this.isAnimationFinished
       && this.player.modifiers.invisible == false
       && !this.player.modifiers.stunned;
@@ -68,7 +68,7 @@ class Sword extends Entity {
   canFly() {
     if (this.canSwing()) return false;
     return !this.isFlying && !this.restrictFly
-      && this.player.inputs.isInputDown(Types.Input.SwordThrow)
+      && this.player.inputs.isInputDown(Types.Input.AltFire)
       && this.flyCooldownTime <= 0
       && this.player.modifiers.invisible == false
       && !this.player.modifiers.stunned;
@@ -180,16 +180,15 @@ class Sword extends Entity {
       this.flyTime = 0;
       this.raiseAnimation = true;
       this.isAnimationFinished = false;
-      this.player.flags.set(Types.Flags.SwordSwing, true);
+      this.player.flags.set(Types.Flags.GunShoot, true);
 
       const elapsed = Date.now() - this.lastSwordSwing;
       const multiplier = elapsed / this.focusTime;
       this.focusDamageMultiplier = Math.max(0.5, Math.min(1.2, multiplier));
 
-      // Trigger onSwordSwing hook for evolution effects
-      if (this.player.evolutions && this.player.evolutions.evolutionEffect && typeof this.player.evolutions.evolutionEffect.onSwordSwing === 'function') {
+      if (this.player.evolutions && this.player.evolutions.evolutionEffect && typeof this.player.evolutions.evolutionEffect.onGunShoot === 'function') {
         try {
-          this.player.evolutions.evolutionEffect.onSwordSwing();
+          this.player.evolutions.evolutionEffect.onGunShoot();
         } catch (e) {
           //
         }
@@ -204,11 +203,11 @@ class Sword extends Entity {
       } else {
         this.flyCooldownTime = this.flyCooldown.value;
       }
-      this.player.flags.set(Types.Flags.SwordThrow, true);
-      this.player.inputs.inputUp(Types.Input.SwordThrow);
+      this.player.flags.set(Types.Flags.GunAltFire, true);
+      this.player.inputs.inputUp(Types.Input.AltFire);
     }
 
-    if (!this.isAnimationFinished && !this.raiseAnimation && !this.player.inputs.isInputDown(Types.Input.SwordSwing)) {
+    if (!this.isAnimationFinished && !this.raiseAnimation && !this.player.inputs.isInputDown(Types.Input.Shoot)) {
       this.decreaseAnimation = true;
       this.focusDamageMultiplier = 1;
       this.lastSwordSwing = Date.now();

@@ -231,10 +231,10 @@ class PlayerAI extends Player {
     if (this.attackCooldown > 0) return;
 
     if (distance < 300) {
-      this.inputs.inputDown(Types.Input.SwordSwing);
+      this.inputs.inputDown(Types.Input.Shoot);
     }
     else if (distance < 1300) {
-      this.inputs.inputDown(Types.Input.SwordThrow);
+      this.inputs.inputDown(Types.Input.AltFire);
     }
     this.attackCooldown = helpers.random(0.5, 1.3);
   }

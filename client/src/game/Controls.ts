@@ -29,8 +29,8 @@ export class Controls {
     [InputTypes.Down]: ['S', 'DOWN'],
     [InputTypes.Right]: ['D', 'RIGHT'],
     [InputTypes.Ability]: ['G', 'Q'],
-    [InputTypes.SwordThrow]: ['C', 'E', 'SHIFT'],
-    [InputTypes.SwordSwing]: ['SPACE'],
+    [InputTypes.AltFire]: ['C', 'E', 'SHIFT'],
+    [InputTypes.Shoot]: ['SPACE'],
   };
 
   initialize() {
@@ -59,16 +59,16 @@ export class Controls {
     input.on('pointerdown', (pointer: Phaser.Input.Pointer) => {
       pointer.event.preventDefault();
       if (pointer.leftButtonDown()) {
-        this.inputDown(InputTypes.SwordSwing);
+        this.inputDown(InputTypes.Shoot);
       }
       if (pointer.rightButtonDown()) {
-        this.inputDown(InputTypes.SwordThrow);
+        this.inputDown(InputTypes.AltFire);
       }
     });
     input.on('pointerup', (pointer: Phaser.Input.Pointer) => {
       pointer.event.preventDefault();
-        this.inputUp(InputTypes.SwordSwing);
-        this.inputUp(InputTypes.SwordThrow);
+        this.inputUp(InputTypes.Shoot);
+        this.inputUp(InputTypes.AltFire);
     });
 
 

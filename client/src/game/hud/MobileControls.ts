@@ -33,8 +33,8 @@ export default class MobileControls extends HudComponent {
 
       this.swordThrowButton = this.hud.scene.add.sprite(0, 0, 'swordThrowButton')
         .setInteractive()
-        .on('pointerdown', () => this.game.controls.inputDown(InputTypes.SwordThrow))
-        .on('pointerup', () => this.game.controls.inputUp(InputTypes.SwordThrow));
+        .on('pointerdown', () => this.game.controls.inputDown(InputTypes.AltFire))
+        .on('pointerup', () => this.game.controls.inputUp(InputTypes.AltFire));
 
       this.container.add([this.chatButton, this.swordThrowButton]);
     }

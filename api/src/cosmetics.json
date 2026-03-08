@@ -7,7 +7,8 @@
       "swordFileName": "sword.png",
       "bodyFileName": "player.png",
       "buyable": true,
-      "description": "The default skin"
+      "description": "The default skin",
+      "gunFileName": "gun.png"
     },
     "dog": {
       "name": "dog",
@@ -17,7 +18,8 @@
       "swordFileName": "dogSword.png",
       "bodyFileName": "dogPlayer.png",
       "description": "Dogs!",
-      "price": 50
+      "price": 50,
+      "gunFileName": "gun.png"
     },
     "cat": {
       "name": "cat",
@@ -27,7 +29,8 @@
       "swordFileName": "catSword.png",
       "bodyFileName": "catPlayer.png",
       "description": "Cats!",
-      "price": 50
+      "price": 50,
+      "gunFileName": "gun.png"
     },
     "mummy": {
       "name": "mummy",
@@ -37,7 +40,8 @@
       "buyable": true,
       "swordFileName": "mummySword.png",
       "bodyFileName": "mummyPlayer.png",
-      "description": "Back from the dead!"
+      "description": "Back from the dead!",
+      "gunFileName": "gun.png"
     },
     "toilet": {
       "name": "toilet",
@@ -47,7 +51,8 @@
       "price": 100,
       "swordFileName": "toiletSword.png",
       "bodyFileName": "toiletPlayer.png",
-      "description": "Release the explosives..."
+      "description": "Release the explosives...",
+      "gunFileName": "gun.png"
     },
     "spring": {
       "name": "spring",
@@ -57,7 +62,8 @@
       "price": 150,
       "swordFileName": "springSword.png",
       "bodyFileName": "springPlayer.png",
-      "description": "Spring is here!"
+      "description": "Spring is here!",
+      "gunFileName": "gun.png"
     },
     "bread": {
       "name": "bread",
@@ -67,7 +73,8 @@
       "price": 200,
       "swordFileName": "breadSword.png",
       "bodyFileName": "breadPlayer.png",
-      "description": "Fresh, and tasty!"
+      "description": "Fresh, and tasty!",
+      "gunFileName": "gun.png"
     },
     "witch": {
       "name": "witch",
@@ -77,7 +84,8 @@
       "price": 175,
       "swordFileName": "witchSword.png",
       "bodyFileName": "witchPlayer.png",
-      "description": "Cast a spell on your enemies"
+      "description": "Cast a spell on your enemies",
+      "gunFileName": "gun.png"
     },
     "lion": {
       "name": "lion",
@@ -87,7 +95,8 @@
       "price": 250,
       "swordFileName": "lionSword.png",
       "bodyFileName": "lionPlayer.png",
-      "description": "Roar!"
+      "description": "Roar!",
+      "gunFileName": "gun.png"
     },
     "skeleton": {
       "name": "skeleton",
@@ -97,7 +106,8 @@
       "price": 200,
       "swordFileName": "skeletonSword.png",
       "bodyFileName": "skeletonPlayer.png",
-      "description": "Spooky scary skeletons"
+      "description": "Spooky scary skeletons",
+      "gunFileName": "gun.png"
     },
     "anime": {
       "name": "anime",
@@ -106,7 +116,8 @@
       "swordFileName": "animeSword.png",
       "bodyFileName": "animePlayer.png",
       "buyable": false,
-      "price": 200
+      "price": 200,
+      "gunFileName": "gun.png"
     },
     "ice cream": {
       "name": "ice cream",
@@ -116,7 +127,8 @@
       "price": 300,
       "swordFileName": "icecreamSword.png",
       "bodyFileName": "icecreamPlayer.png",
-      "description": "I scream, you scream, your enemies scream"
+      "description": "I scream, you scream, your enemies scream",
+      "gunFileName": "gun.png"
     },
     "military grade": {
       "name": "military grade",
@@ -126,7 +138,8 @@
       "price": 5000,
       "swordFileName": "militaryGradeSword.png",
       "bodyFileName": "militaryGradePlayer.png",
-      "description": "“The greatest victory is that which requires no battle” - Sun Tzu"
+      "description": "“The greatest victory is that which requires no battle” - Sun Tzu",
+      "gunFileName": "gun.png"
     },
     "forest lurker": {
       "name": "forest lurker",
@@ -136,7 +149,8 @@
       "price": 6000,
       "swordFileName": "forestLurkerSword.png",
       "bodyFileName": "forestLurkerPlayer.png",
-      "description": "Ahora nadie puede verme"
+      "description": "Ahora nadie puede verme",
+      "gunFileName": "gun.png"
     },
     "tea": {
       "name": "tea",
@@ -146,7 +160,8 @@
       "price": 250,
       "swordFileName": "teaSword.png",
       "bodyFileName": "teaPlayer.png",
-      "description": "Garam aur meethi chai :)"
+      "description": "Garam aur meethi chai :)",
+      "gunFileName": "gun.png"
     },
     "wasd": {
       "name": "wasd",
@@ -156,7 +171,8 @@
       "price": 100000,
       "swordFileName": "vipWasdSword.png",
       "bodyFileName": "vipWasdPlayer.png",
-      "description": "Given to Wasd for contributing to the community and Swordbattle as a whole. Also available to other players for 100k gems."
+      "description": "Given to Wasd for contributing to the community and Swordbattle as a whole. Also available to other players for 100k gems.",
+      "gunFileName": "gun.png"
     },
     "pi guy": {
       "name": "pi guy",
@@ -166,7 +182,8 @@
       "price": 314159,
       "swordFileName": "piGuySword.png",
       "bodyFileName": "piGuyPlayer.png",
-      "description": "The ratio of a circle's circumference to its diameter"
+      "description": "The ratio of a circle's circumference to its diameter",
+      "gunFileName": "gun.png"
     },
     "frost ninja": {
       "name": "frost ninja",
@@ -176,7 +193,8 @@
       "price": 11111,
       "swordFileName": "frostninjaSword.png",
       "bodyFileName": "frostninjaPlayer.png",
-      "description": "The cold never bothered me anyway"
+      "description": "The cold never bothered me anyway",
+      "gunFileName": "gun.png"
     },
     "penguin": {
       "name": "penguin",
@@ -186,7 +204,8 @@
       "price": 700,
       "swordFileName": "penguinSword.png",
       "bodyFileName": "penguinPlayer.png",
-      "description": "Waddle waddle"
+      "description": "Waddle waddle",
+      "gunFileName": "gun.png"
     },
     "snowflake": {
       "name": "snowflake",
@@ -196,7 +215,8 @@
       "price": 950,
       "swordFileName": "snowflakeSword.png",
       "bodyFileName": "snowflakePlayer.png",
-      "description": "Unique and beautiful"
+      "description": "Unique and beautiful",
+      "gunFileName": "gun.png"
     },
     "calculator": {
       "name": "calculator",
@@ -206,7 +226,8 @@
       "price": 1750,
       "swordFileName": "calculatorSword.png",
       "bodyFileName": "calculatorPlayer.png",
-      "description": "Enemy HP × 0 = 0"
+      "description": "Enemy HP × 0 = 0",
+      "gunFileName": "gun.png"
     },
     "yinyang": {
       "name": "yinyang",
@@ -216,7 +237,8 @@
       "og": true,
       "swordFileName": "yinyangSword.png",
       "bodyFileName": "yinyangPlayer.png",
-      "description": "Find a balance"
+      "description": "Find a balance",
+      "gunFileName": "gun.png"
     },
     "neon": {
       "name": "neon",
@@ -226,7 +248,8 @@
       "og": true,
       "swordFileName": "neonSword.png",
       "bodyFileName": "neonPlayer.png",
-      "description": "Ahhh.. So bright!"
+      "description": "Ahhh.. So bright!",
+      "gunFileName": "gun.png"
     },
     "sponge": {
       "name": "sponge",
@@ -236,7 +259,8 @@
       "og": true,
       "swordFileName": "spongeSword.png",
       "bodyFileName": "spongePlayer.png",
-      "description": "Soaks up coins"
+      "description": "Soaks up coins",
+      "gunFileName": "gun.png"
     },
     "vortex": {
       "name": "vortex",
@@ -246,7 +270,8 @@
       "og": true,
       "swordFileName": "vortexSword.png",
       "bodyFileName": "vortexPlayer.png",
-      "description": "The power is too strong.."
+      "description": "The power is too strong..",
+      "gunFileName": "gun.png"
     },
     "bubble": {
       "name": "bubble",
@@ -256,7 +281,8 @@
       "og": true,
       "swordFileName": "bubbleSword.png",
       "bodyFileName": "bubblePlayer.png",
-      "description": "Magical, colorful, mysterious"
+      "description": "Magical, colorful, mysterious",
+      "gunFileName": "gun.png"
     },
     "bullseye": {
       "name": "bullseye",
@@ -266,7 +292,8 @@
       "og": true,
       "swordFileName": "bullseyeSword.png",
       "bodyFileName": "bullseyePlayer.png",
-      "description": "It can't miss"
+      "description": "It can't miss",
+      "gunFileName": "gun.png"
     },
     "fox": {
       "name": "fox",
@@ -276,7 +303,8 @@
       "og": true,
       "swordFileName": "foxSword.png",
       "bodyFileName": "foxPlayer.png",
-      "description": "Very sneaky"
+      "description": "Very sneaky",
+      "gunFileName": "gun.png"
     },
     "peppermint": {
       "name": "peppermint",
@@ -286,7 +314,8 @@
       "og": true,
       "swordFileName": "peppermintSword.png",
       "bodyFileName": "peppermintPlayer.png",
-      "description": "Tastes like coins"
+      "description": "Tastes like coins",
+      "gunFileName": "gun.png"
     },
     "pig": {
       "name": "pig",
@@ -296,7 +325,8 @@
       "og": true,
       "swordFileName": "pigSword.png",
       "bodyFileName": "pigPlayer.png",
-      "description": "It managed to survive the wolf..."
+      "description": "It managed to survive the wolf...",
+      "gunFileName": "gun.png"
     },
     "smile": {
       "name": "smile",
@@ -306,7 +336,8 @@
       "og": true,
       "swordFileName": "smileSword.png",
       "bodyFileName": "smilePlayer.png",
-      "description": "Smile while you stab"
+      "description": "Smile while you stab",
+      "gunFileName": "gun.png"
     },
     "sad": {
       "name": "sad",
@@ -316,7 +347,8 @@
       "og": true,
       "swordFileName": "sadSword.png",
       "bodyFileName": "sadPlayer.png",
-      "description": "Stab with sadness..."
+      "description": "Stab with sadness...",
+      "gunFileName": "gun.png"
     },
     "glass": {
       "name": "glass",
@@ -326,7 +358,8 @@
       "og": true,
       "swordFileName": "glassSword.png",
       "bodyFileName": "glassPlayer.png",
-      "description": "Why have gold when you can have glass?"
+      "description": "Why have gold when you can have glass?",
+      "gunFileName": "gun.png"
     },
     "sick": {
       "name": "sick",
@@ -336,7 +369,8 @@
       "og": true,
       "swordFileName": "sickSword.png",
       "bodyFileName": "sickPlayer.png",
-      "description": "I don't feel so good... I need coins"
+      "description": "I don't feel so good... I need coins",
+      "gunFileName": "gun.png"
     },
     "clefogex": {
       "name": "clefogex",
@@ -346,7 +380,8 @@
       "og": true,
       "swordFileName": "clefSword.png",
       "bodyFileName": "clefPlayer.png",
-      "description": "Slap them with you bass"
+      "description": "Slap them with you bass",
+      "gunFileName": "gun.png"
     },
     "bowling": {
       "name": "bowling",
@@ -356,7 +391,8 @@
       "og": true,
       "swordFileName": "bowlingSword.png",
       "bodyFileName": "bowlingPlayer.png",
-      "description": "It can knock people over like a pin"
+      "description": "It can knock people over like a pin",
+      "gunFileName": "gun.png"
     },
     "hacker": {
       "name": "hacker",
@@ -366,7 +402,8 @@
       "og": true,
       "swordFileName": "hackerSword.png",
       "bodyFileName": "hackerPlayer.png",
-      "description": "ℙ𝕣𝕠 𝕙𝕒𝕔𝕜𝕖𝕣"
+      "description": "ℙ𝕣𝕠 𝕙𝕒𝕔𝕜𝕖𝕣",
+      "gunFileName": "gun.png"
     },
     "red": {
       "name": "red",
@@ -376,7 +413,8 @@
       "og": true,
       "swordFileName": "redSword.png",
       "bodyFileName": "redPlayer.png",
-      "description": "Its a better default"
+      "description": "Its a better default",
+      "gunFileName": "gun.png"
     },
     "frager201": {
       "name": "frager201",
@@ -386,7 +424,8 @@
       "og": true,
       "swordFileName": "frager201Sword.png",
       "bodyFileName": "frager201Player.png",
-      "description": "Frag your way through"
+      "description": "Frag your way through",
+      "gunFileName": "gun.png"
     },
     "starrynight": {
       "name": "starrynight",
@@ -396,7 +435,8 @@
       "og": true,
       "swordFileName": "starrynightSword.png",
       "bodyFileName": "starrynightPlayer.png",
-      "description": "A nice sight before a kill"
+      "description": "A nice sight before a kill",
+      "gunFileName": "gun.png"
     },
     "cursed": {
       "name": "cursed",
@@ -406,7 +446,8 @@
       "og": true,
       "swordFileName": "cursedSword.png",
       "bodyFileName": "cursedPlayer.png",
-      "description": "Curse them to your advantage"
+      "description": "Curse them to your advantage",
+      "gunFileName": "gun.png"
     },
     "chef": {
       "name": "chef",
@@ -416,7 +457,8 @@
       "og": true,
       "swordFileName": "chefSword.png",
       "bodyFileName": "chefPlayer.png",
-      "description": "Chop 'em up"
+      "description": "Chop 'em up",
+      "gunFileName": "gun.png"
     },
     "rainbowogex": {
       "name": "rainbowogex",
@@ -426,7 +468,8 @@
       "og": true,
       "swordFileName": "rainbowSword.png",
       "bodyFileName": "rainbowPlayer.png",
-      "description": "Its bright and colorful"
+      "description": "Its bright and colorful",
+      "gunFileName": "gun.png"
     },
     "meelee": {
       "name": "meelee",
@@ -436,7 +479,8 @@
       "og": true,
       "swordFileName": "meeleeSword.png",
       "bodyFileName": "meeleePlayer.png",
-      "description": "Charge in headfirst"
+      "description": "Charge in headfirst",
+      "gunFileName": "gun.png"
     },
     "radiation": {
       "name": "radiation",
@@ -446,7 +490,8 @@
       "og": true,
       "swordFileName": "radiationSword.png",
       "bodyFileName": "radiationPlayer.png",
-      "description": "Very Toxic..."
+      "description": "Very Toxic...",
+      "gunFileName": "gun.png"
     },
     "pizza": {
       "name": "pizza",
@@ -456,7 +501,8 @@
       "og": true,
       "swordFileName": "pizzaSword.png",
       "bodyFileName": "pizzaPlayer.png",
-      "description": "A treat for a kill"
+      "description": "A treat for a kill",
+      "gunFileName": "gun.png"
     },
     "painting": {
       "name": "painting",
@@ -466,7 +512,8 @@
       "og": true,
       "swordFileName": "paintingSword.png",
       "bodyFileName": "paintingPlayer.png",
-      "description": "Paint your coins"
+      "description": "Paint your coins",
+      "gunFileName": "gun.png"
     },
     "astronaut": {
       "name": "astronaut",
@@ -476,7 +523,8 @@
       "og": true,
       "swordFileName": "astronautSword.png",
       "bodyFileName": "astronautPlayer.png",
-      "description": "No gravity..."
+      "description": "No gravity...",
+      "gunFileName": "gun.png"
     },
     "matrix": {
       "name": "matrix",
@@ -486,7 +534,8 @@
       "og": true,
       "swordFileName": "matrixSword.png",
       "bodyFileName": "matrixPlayer.png",
-      "description": "Matrix: Its a mystery"
+      "description": "Matrix: Its a mystery",
+      "gunFileName": "gun.png"
     },
     "smokedetector": {
       "name": "smokedetector",
@@ -496,7 +545,8 @@
       "og": true,
       "swordFileName": "smokedetectorSword.png",
       "bodyFileName": "smokedetectorPlayer.png",
-      "description": "BEEP BEEP, scare your enemies"
+      "description": "BEEP BEEP, scare your enemies",
+      "gunFileName": "gun.png"
     },
     "student": {
       "name": "student",
@@ -506,7 +556,8 @@
       "og": true,
       "swordFileName": "studentSword.png",
       "bodyFileName": "studentPlayer.png",
-      "description": "Study the arts of stabbing..."
+      "description": "Study the arts of stabbing...",
+      "gunFileName": "gun.png"
     },
     "axolotl": {
       "name": "axolotl",
@@ -516,7 +567,8 @@
       "og": true,
       "swordFileName": "axolotlSword.png",
       "bodyFileName": "axolotlPlayer.png",
-      "description": "Just swimming around"
+      "description": "Just swimming around",
+      "gunFileName": "gun.png"
     },
     "ninja": {
       "name": "ninja",
@@ -526,7 +578,8 @@
       "og": true,
       "swordFileName": "ninjaSword.png",
       "bodyFileName": "ninjaPlayer.png",
-      "description": "A skilled warrior"
+      "description": "A skilled warrior",
+      "gunFileName": "gun.png"
     },
     "viking": {
       "name": "viking",
@@ -536,7 +589,8 @@
       "og": true,
       "swordFileName": "vikingSword.png",
       "bodyFileName": "vikingPlayer.png",
-      "description": "A fearsome warrior"
+      "description": "A fearsome warrior",
+      "gunFileName": "gun.png"
     },
     "sea": {
       "name": "sea",
@@ -546,7 +600,8 @@
       "og": true,
       "swordFileName": "seaSword.png",
       "bodyFileName": "seaPlayer.png",
-      "description": "Peaceful and relaxing."
+      "description": "Peaceful and relaxing.",
+      "gunFileName": "gun.png"
     },
     "flame": {
       "name": "flame",
@@ -556,7 +611,8 @@
       "og": true,
       "swordFileName": "flameSword.png",
       "bodyFileName": "flamePlayer.png",
-      "description": "Dont like it? Set it ablaze"
+      "description": "Dont like it? Set it ablaze",
+      "gunFileName": "gun.png"
     },
     "determined": {
       "name": "determined",
@@ -566,7 +622,8 @@
       "og": true,
       "swordFileName": "determinedSword.png",
       "bodyFileName": "determinedPlayer.png",
-      "description": "I. Need. Coins."
+      "description": "I. Need. Coins.",
+      "gunFileName": "gun.png"
     },
     "tigerogex": {
       "name": "tigerogex",
@@ -576,7 +633,8 @@
       "og": true,
       "swordFileName": "tigerSword.png",
       "bodyFileName": "tigerPlayer.png",
-      "description": "Don't get in the way of its claws..."
+      "description": "Don't get in the way of its claws...",
+      "gunFileName": "gun.png"
     },
     "frumpythefrog": {
       "name": "frumpythefrog",
@@ -586,7 +644,8 @@
       "og": true,
       "swordFileName": "frumpythefrogSword.png",
       "bodyFileName": "frumpythefrogPlayer.png",
-      "description": "A frog named Frumpy"
+      "description": "A frog named Frumpy",
+      "gunFileName": "gun.png"
     },
     "vinyl": {
       "name": "vinyl",
@@ -596,7 +655,8 @@
       "og": true,
       "swordFileName": "vinylSword.png",
       "bodyFileName": "vinylPlayer.png",
-      "description": "Go old fashioned"
+      "description": "Go old fashioned",
+      "gunFileName": "gun.png"
     },
     "asteroid": {
       "name": "asteroid",
@@ -606,7 +666,8 @@
       "og": true,
       "swordFileName": "asteroidSword.png",
       "bodyFileName": "asteroidPlayer.png",
-      "description": "Be the destruction"
+      "description": "Be the destruction",
+      "gunFileName": "gun.png"
     },
     "lightning": {
       "name": "lightning",
@@ -616,7 +677,8 @@
       "og": true,
       "swordFileName": "lightningSword.png",
       "bodyFileName": "lightningPlayer.png",
-      "description": "One zap and you're dead..."
+      "description": "One zap and you're dead...",
+      "gunFileName": "gun.png"
     },
     "smore": {
       "name": "smore",
@@ -626,7 +688,8 @@
       "og": true,
       "swordFileName": "smoreSword.png",
       "bodyFileName": "smorePlayer.png",
-      "description": "Delicious"
+      "description": "Delicious",
+      "gunFileName": "gun.png"
     },
     "mystery": {
       "name": "mystery",
@@ -636,7 +699,8 @@
       "og": true,
       "swordFileName": "mysterySword.png",
       "bodyFileName": "mysteryPlayer.png",
-      "description": "Its a murder mystery..."
+      "description": "Its a murder mystery...",
+      "gunFileName": "gun.png"
     },
     "dayandnight": {
       "name": "dayandnight",
@@ -646,7 +710,8 @@
       "og": true,
       "swordFileName": "dayandnightSword.png",
       "bodyFileName": "dayandnightPlayer.png",
-      "description": "Show your dedication no matter what time..."
+      "description": "Show your dedication no matter what time...",
+      "gunFileName": "gun.png"
     },
     "cheese": {
       "name": "cheese",
@@ -656,7 +721,8 @@
       "og": true,
       "swordFileName": "cheeseSword.png",
       "bodyFileName": "cheesePlayer.png",
-      "description": "Its cheese"
+      "description": "Its cheese",
+      "gunFileName": "gun.png"
     },
     "farmerogex": {
       "name": "farmerogex",
@@ -666,7 +732,8 @@
       "og": true,
       "swordFileName": "farmerSword.png",
       "bodyFileName": "farmerPlayer.png",
-      "description": "Trained in the fields"
+      "description": "Trained in the fields",
+      "gunFileName": "gun.png"
     },
     "medic": {
       "name": "medic",
@@ -676,7 +743,8 @@
       "og": true,
       "swordFileName": "medicSword.png",
       "bodyFileName": "medicPlayer.png",
-      "description": "Heal.. or Stab..."
+      "description": "Heal.. or Stab...",
+      "gunFileName": "gun.png"
     },
     "pumpkin": {
       "name": "pumpkin",
@@ -686,7 +754,8 @@
       "og": true,
       "swordFileName": "pumpkinSword.png",
       "bodyFileName": "pumpkinPlayer.png",
-      "description": "Very spooky..."
+      "description": "Very spooky...",
+      "gunFileName": "gun.png"
     },
     "floral": {
       "name": "floral",
@@ -696,7 +765,8 @@
       "og": true,
       "swordFileName": "floralSword.png",
       "bodyFileName": "floralPlayer.png",
-      "description": "Smells good like coins"
+      "description": "Smells good like coins",
+      "gunFileName": "gun.png"
     },
     "king": {
       "name": "king",
@@ -706,7 +776,8 @@
       "og": true,
       "swordFileName": "kingSword.png",
       "bodyFileName": "kingPlayer.png",
-      "description": "All hail the king"
+      "description": "All hail the king",
+      "gunFileName": "gun.png"
     },
     "xray": {
       "name": "xray",
@@ -716,7 +787,8 @@
       "og": true,
       "swordFileName": "xraySword.png",
       "bodyFileName": "xrayPlayer.png",
-      "description": "Stare into your enemies soul"
+      "description": "Stare into your enemies soul",
+      "gunFileName": "gun.png"
     },
     "monkey": {
       "name": "monkey",
@@ -726,7 +798,8 @@
       "og": true,
       "swordFileName": "monkeySword.png",
       "bodyFileName": "monkeyPlayer.png",
-      "description": "Le Monke"
+      "description": "Le Monke",
+      "gunFileName": "gun.png"
     },
     "santa": {
       "name": "santa",
@@ -736,7 +809,8 @@
       "og": true,
       "swordFileName": "santaSword.png",
       "bodyFileName": "santaPlayer.png",
-      "description": "Ho ho ho"
+      "description": "Ho ho ho",
+      "gunFileName": "gun.png"
     },
     "superhero": {
       "name": "superhero",
@@ -746,7 +820,8 @@
       "og": true,
       "swordFileName": "superheroSword.png",
       "bodyFileName": "superheroPlayer.png",
-      "description": "Super skills for a super player"
+      "description": "Super skills for a super player",
+      "gunFileName": "gun.png"
     },
     "movie": {
       "name": "movie",
@@ -756,7 +831,8 @@
       "og": true,
       "swordFileName": "movieSword.png",
       "bodyFileName": "moviePlayer.png",
-      "description": "Eat coins like popcorn"
+      "description": "Eat coins like popcorn",
+      "gunFileName": "gun.png"
     },
     "killerbot": {
       "name": "killerbot",
@@ -766,7 +842,8 @@
       "og": true,
       "swordFileName": "killerbotSword.png",
       "bodyFileName": "killerbotPlayer.png",
-      "description": "Makes your opponents wish they were fighting an actual bot"
+      "description": "Makes your opponents wish they were fighting an actual bot",
+      "gunFileName": "gun.png"
     },
     "comicogex": {
       "name": "comicogex",
@@ -776,7 +853,8 @@
       "og": true,
       "swordFileName": "comicSword.png",
       "bodyFileName": "comicPlayer.png",
-      "description": "Be like the villain"
+      "description": "Be like the villain",
+      "gunFileName": "gun.png"
     },
     "masquerade": {
       "name": "masquerade",
@@ -786,7 +864,8 @@
       "og": true,
       "swordFileName": "masqueradeSword.png",
       "bodyFileName": "masqueradePlayer.png",
-      "description": "Wear your mask, and stab in disguise"
+      "description": "Wear your mask, and stab in disguise",
+      "gunFileName": "gun.png"
     },
     "ham": {
       "name": "ham",
@@ -796,7 +875,8 @@
       "og": true,
       "swordFileName": "hamSword.png",
       "bodyFileName": "hamPlayer.png",
-      "description": "Chomp"
+      "description": "Chomp",
+      "gunFileName": "gun.png"
     },
     "chicken": {
       "name": "chicken",
@@ -806,7 +886,8 @@
       "og": true,
       "swordFileName": "chickenSword.png",
       "bodyFileName": "chickenPlayer.png",
-      "description": "A snack before slaughter"
+      "description": "A snack before slaughter",
+      "gunFileName": "gun.png"
     },
     "wizard": {
       "name": "wizard",
@@ -816,7 +897,8 @@
       "og": true,
       "swordFileName": "wizardSword.png",
       "bodyFileName": "wizardPlayer.png",
-      "description": "Fight like magic"
+      "description": "Fight like magic",
+      "gunFileName": "gun.png"
     },
     "angry": {
       "name": "angry",
@@ -826,7 +908,8 @@
       "og": true,
       "swordFileName": "angrySword.png",
       "bodyFileName": "angryPlayer.png",
-      "description": "Let your anger drive you..."
+      "description": "Let your anger drive you...",
+      "gunFileName": "gun.png"
     },
     "fighter": {
       "name": "fighter",
@@ -836,7 +919,8 @@
       "og": true,
       "swordFileName": "fighterSword.png",
       "bodyFileName": "fighterPlayer.png",
-      "description": "Fight like a pro"
+      "description": "Fight like a pro",
+      "gunFileName": "gun.png"
     },
     "soldier": {
       "name": "soldier",
@@ -846,7 +930,8 @@
       "og": true,
       "swordFileName": "soldierSword.png",
       "bodyFileName": "soldierPlayer.png",
-      "description": "A hardened veteran"
+      "description": "A hardened veteran",
+      "gunFileName": "gun.png"
     },
     "suit": {
       "name": "suit",
@@ -856,7 +941,8 @@
       "og": true,
       "swordFileName": "suitSword.png",
       "bodyFileName": "suitPlayer.png",
-      "description": "Hide secrets under the suit"
+      "description": "Hide secrets under the suit",
+      "gunFileName": "gun.png"
     },
     "cardboard": {
       "name": "cardboard",
@@ -866,7 +952,8 @@
       "og": true,
       "swordFileName": "cardboardSword.png",
       "bodyFileName": "cardboardPlayer.png",
-      "description": "Pacakge and keep your coins safe"
+      "description": "Pacakge and keep your coins safe",
+      "gunFileName": "gun.png"
     },
     "whale": {
       "name": "whale",
@@ -876,7 +963,8 @@
       "og": true,
       "swordFileName": "whaleSword.png",
       "bodyFileName": "whalePlayer.png",
-      "description": "A chilling spray of water"
+      "description": "A chilling spray of water",
+      "gunFileName": "gun.png"
     },
     "cactus": {
       "name": "cactus",
@@ -886,7 +974,8 @@
       "og": true,
       "swordFileName": "cactusSword.png",
       "bodyFileName": "cactusPlayer.png",
-      "description": "Adds an extra poke to your stab"
+      "description": "Adds an extra poke to your stab",
+      "gunFileName": "gun.png"
     },
     "baseball": {
       "name": "baseball",
@@ -896,7 +985,8 @@
       "og": true,
       "swordFileName": "baseballSword.png",
       "bodyFileName": "baseballPlayer.png",
-      "description": "Hit them off the map"
+      "description": "Hit them off the map",
+      "gunFileName": "gun.png"
     },
     "basketball": {
       "name": "basketball",
@@ -906,7 +996,8 @@
       "og": true,
       "swordFileName": "basketballSword.png",
       "bodyFileName": "basketballPlayer.png",
-      "description": "Shoot some coins into your shop"
+      "description": "Shoot some coins into your shop",
+      "gunFileName": "gun.png"
     },
     "quarterback": {
       "name": "quarterback",
@@ -916,7 +1007,8 @@
       "og": true,
       "swordFileName": "quarterbackSword.png",
       "bodyFileName": "quarterbackPlayer.png",
-      "description": "Be strong"
+      "description": "Be strong",
+      "gunFileName": "gun.png"
     },
     "winter": {
       "name": "winter",
@@ -926,7 +1018,8 @@
       "og": true,
       "swordFileName": "winterSword.png",
       "bodyFileName": "winterPlayer.png",
-      "description": "I like it cold."
+      "description": "I like it cold.",
+      "gunFileName": "gun.png"
     },
     "painter": {
       "name": "painter",
@@ -936,7 +1029,8 @@
       "og": true,
       "swordFileName": "painterSword.png",
       "bodyFileName": "painterPlayer.png",
-      "description": "The power of paint"
+      "description": "The power of paint",
+      "gunFileName": "gun.png"
     },
     "fall": {
       "name": "fall",
@@ -946,7 +1040,8 @@
       "og": true,
       "swordFileName": "fallSword.png",
       "bodyFileName": "fallPlayer.png",
-      "description": "I like it cool"
+      "description": "I like it cool",
+      "gunFileName": "gun.png"
     },
     "formal": {
       "name": "formal",
@@ -956,7 +1051,8 @@
       "og": true,
       "swordFileName": "formalSword.png",
       "bodyFileName": "formalPlayer.png",
-      "description": "They'll never expect the gentleman"
+      "description": "They'll never expect the gentleman",
+      "gunFileName": "gun.png"
     },
     "zombie": {
       "name": "zombie",
@@ -966,7 +1062,8 @@
       "og": true,
       "swordFileName": "zombieSword.png",
       "bodyFileName": "zombiePlayer.png",
-      "description": "Eats the brains of enemies"
+      "description": "Eats the brains of enemies",
+      "gunFileName": "gun.png"
     },
     "donut": {
       "name": "donut",
@@ -976,7 +1073,8 @@
       "og": true,
       "swordFileName": "donutSword.png",
       "bodyFileName": "donutPlayer.png",
-      "description": "Become hyper for a kill spree..."
+      "description": "Become hyper for a kill spree...",
+      "gunFileName": "gun.png"
     },
     "burgerogex": {
       "name": "burgerogex",
@@ -986,7 +1084,8 @@
       "og": true,
       "swordFileName": "burgerSword.png",
       "bodyFileName": "burgerPlayer.png",
-      "description": "As tasty as coins"
+      "description": "As tasty as coins",
+      "gunFileName": "gun.png"
     },
     "panda": {
       "name": "panda",
@@ -996,7 +1095,8 @@
       "og": true,
       "swordFileName": "pandaSword.png",
       "bodyFileName": "pandaPlayer.png",
-      "description": "It looks cuddly but watch out..."
+      "description": "It looks cuddly but watch out...",
+      "gunFileName": "gun.png"
     },
     "framework": {
       "name": "framework",
@@ -1006,7 +1106,8 @@
       "og": true,
       "swordFileName": "frameworkSword.png",
       "bodyFileName": "frameworkPlayer.png",
-      "description": "Built like a rock..."
+      "description": "Built like a rock...",
+      "gunFileName": "gun.png"
     },
     "blobfish": {
       "name": "blobfish",
@@ -1016,7 +1117,8 @@
       "og": true,
       "swordFileName": "blobfishSword.png",
       "bodyFileName": "blobfishPlayer.png",
-      "description": "Don't leave the deep..."
+      "description": "Don't leave the deep...",
+      "gunFileName": "gun.png"
     },
     "blueberry": {
       "name": "blueberry",
@@ -1026,7 +1128,8 @@
       "og": true,
       "swordFileName": "blueberrySword.png",
       "bodyFileName": "blueberryPlayer.png",
-      "description": "As juicy as coins"
+      "description": "As juicy as coins",
+      "gunFileName": "gun.png"
     },
     "bishopogex": {
       "name": "bishopogex",
@@ -1036,7 +1139,8 @@
       "og": true,
       "swordFileName": "bishopSword.png",
       "bodyFileName": "bishopPlayer.png",
-      "description": "Deliver the final checkmate to your opponent."
+      "description": "Deliver the final checkmate to your opponent.",
+      "gunFileName": "gun.png"
     },
     "covid": {
       "name": "covid",
@@ -1046,7 +1150,8 @@
       "og": true,
       "swordFileName": "covidSword.png",
       "bodyFileName": "covidPlayer.png",
-      "description": "Increase your immunity"
+      "description": "Increase your immunity",
+      "gunFileName": "gun.png"
     },
     "thief": {
       "name": "thief",
@@ -1056,7 +1161,8 @@
       "og": true,
       "swordFileName": "thiefSword.png",
       "bodyFileName": "thiefPlayer.png",
-      "description": "Steal coins from enemy"
+      "description": "Steal coins from enemy",
+      "gunFileName": "gun.png"
     },
     "alarm": {
       "name": "alarm",
@@ -1066,7 +1172,8 @@
       "og": true,
       "swordFileName": "alarmSword.png",
       "bodyFileName": "alarmPlayer.png",
-      "description": "Shak'em before they are ready"
+      "description": "Shak'em before they are ready",
+      "gunFileName": "gun.png"
     },
     "emerald": {
       "name": "emerald",
@@ -1076,7 +1183,8 @@
       "og": true,
       "swordFileName": "emeraldSword.png",
       "bodyFileName": "emeraldPlayer.png",
-      "description": "Oooh shiny...."
+      "description": "Oooh shiny....",
+      "gunFileName": "gun.png"
     },
     "beach": {
       "name": "beach",
@@ -1086,7 +1194,8 @@
       "og": true,
       "swordFileName": "beachSword.png",
       "bodyFileName": "beachPlayer.png",
-      "description": "Seems relaxing... but not for enemies"
+      "description": "Seems relaxing... but not for enemies",
+      "gunFileName": "gun.png"
     },
     "trippy": {
       "name": "trippy",
@@ -1096,7 +1205,8 @@
       "og": true,
       "swordFileName": "trippySword.png",
       "bodyFileName": "trippyPlayer.png",
-      "description": "PRO TIP: Wear this skin and spin to give enemies headaches"
+      "description": "PRO TIP: Wear this skin and spin to give enemies headaches",
+      "gunFileName": "gun.png"
     },
     "sunset": {
       "name": "sunset",
@@ -1106,7 +1216,8 @@
       "og": true,
       "swordFileName": "sunsetSword.png",
       "bodyFileName": "sunsetPlayer.png",
-      "description": "A beautiful sight"
+      "description": "A beautiful sight",
+      "gunFileName": "gun.png"
     },
     "cell": {
       "name": "cell",
@@ -1116,7 +1227,8 @@
       "og": true,
       "swordFileName": "cellSword.png",
       "bodyFileName": "cellPlayer.png",
-      "description": "Have stronger cells to be stronger"
+      "description": "Have stronger cells to be stronger",
+      "gunFileName": "gun.png"
     },
     "compass": {
       "name": "compass",
@@ -1126,7 +1238,8 @@
       "og": true,
       "swordFileName": "compassSword.png",
       "bodyFileName": "compassPlayer.png",
-      "description": "Points you towards coins"
+      "description": "Points you towards coins",
+      "gunFileName": "gun.png"
     },
     "luminescent": {
       "name": "luminescent",
@@ -1136,7 +1249,8 @@
       "og": true,
       "swordFileName": "luminescentSword.png",
       "bodyFileName": "luminescentPlayer.png",
-      "description": "Glow with coins"
+      "description": "Glow with coins",
+      "gunFileName": "gun.png"
     },
     "mage": {
       "name": "mage",
@@ -1146,7 +1260,8 @@
       "og": true,
       "swordFileName": "mageSword.png",
       "bodyFileName": "magePlayer.png",
-      "description": "Cast a spell"
+      "description": "Cast a spell",
+      "gunFileName": "gun.png"
     },
     "lava": {
       "name": "lava",
@@ -1156,7 +1271,8 @@
       "og": true,
       "swordFileName": "lavaSword.png",
       "bodyFileName": "lavaPlayer.png",
-      "description": "Hot Hot Hot"
+      "description": "Hot Hot Hot",
+      "gunFileName": "gun.png"
     },
     "unloaded": {
       "name": "unloaded",
@@ -1166,7 +1282,8 @@
       "og": true,
       "swordFileName": "unloadedSword.png",
       "bodyFileName": "unloadedPlayer.png",
-      "description": "Error: Skin not loading, report to forum."
+      "description": "Error: Skin not loading, report to forum.",
+      "gunFileName": "gun.png"
     },
     "music": {
       "name": "music",
@@ -1176,7 +1293,8 @@
       "og": true,
       "swordFileName": "musicSword.png",
       "bodyFileName": "musicPlayer.png",
-      "description": "Lure your opponents to death..."
+      "description": "Lure your opponents to death...",
+      "gunFileName": "gun.png"
     },
     "hotmetal": {
       "name": "hotmetal",
@@ -1186,7 +1304,8 @@
       "og": true,
       "swordFileName": "hotmetalSword.png",
       "bodyFileName": "hotmetalPlayer.png",
-      "description": "Bring on the heat"
+      "description": "Bring on the heat",
+      "gunFileName": "gun.png"
     },
     "ice": {
       "name": "ice",
@@ -1196,7 +1315,8 @@
       "og": true,
       "swordFileName": "iceSword.png",
       "bodyFileName": "icePlayer.png",
-      "description": "Bring on the cold"
+      "description": "Bring on the cold",
+      "gunFileName": "gun.png"
     },
     "faded": {
       "name": "faded",
@@ -1206,7 +1326,8 @@
       "og": true,
       "swordFileName": "fadedSword.png",
       "bodyFileName": "fadedPlayer.png",
-      "description": "Fade enemies out of existence"
+      "description": "Fade enemies out of existence",
+      "gunFileName": "gun.png"
     },
     "thanksgiving": {
       "name": "thanksgiving",
@@ -1216,7 +1337,8 @@
       "og": true,
       "swordFileName": "thanksgivingSword.png",
       "bodyFileName": "thanksgivingPlayer.png",
-      "description": "Say thanks for your coins"
+      "description": "Say thanks for your coins",
+      "gunFileName": "gun.png"
     },
     "magician": {
       "name": "magician",
@@ -1226,7 +1348,8 @@
       "og": true,
       "swordFileName": "magicianSword.png",
       "bodyFileName": "magicianPlayer.png",
-      "description": "Vanish enemies"
+      "description": "Vanish enemies",
+      "gunFileName": "gun.png"
     },
     "cyborg": {
       "name": "cyborg",
@@ -1236,7 +1359,8 @@
       "og": true,
       "swordFileName": "cyborgSword.png",
       "bodyFileName": "cyborgPlayer.png",
-      "description": "AI-Assisted Stabbing"
+      "description": "AI-Assisted Stabbing",
+      "gunFileName": "gun.png"
     },
     "vaporwave": {
       "name": "vaporwave",
@@ -1246,7 +1370,8 @@
       "og": true,
       "swordFileName": "vaporwaveSword.png",
       "bodyFileName": "vaporwavePlayer.png",
-      "description": "Vaporwave is back"
+      "description": "Vaporwave is back",
+      "gunFileName": "gun.png"
     },
     "chainmail": {
       "name": "chainmail",
@@ -1256,7 +1381,8 @@
       "og": true,
       "swordFileName": "chainmailSword.png",
       "bodyFileName": "chainmailPlayer.png",
-      "description": "Have some armor"
+      "description": "Have some armor",
+      "gunFileName": "gun.png"
     },
     "glowing": {
       "name": "glowing",
@@ -1266,7 +1392,8 @@
       "og": true,
       "swordFileName": "glowingSword.png",
       "bodyFileName": "glowingPlayer.png",
-      "description": "Blind them with your radiance..."
+      "description": "Blind them with your radiance...",
+      "gunFileName": "gun.png"
     },
     "scorpion": {
       "name": "scorpion",
@@ -1276,7 +1403,8 @@
       "og": true,
       "swordFileName": "scorpionSword.png",
       "bodyFileName": "scorpionPlayer.png",
-      "description": "Poisoned wounds are the worst..."
+      "description": "Poisoned wounds are the worst...",
+      "gunFileName": "gun.png"
     },
     "illusionaryogex": {
       "name": "illusionaryogex",
@@ -1286,7 +1414,8 @@
       "og": true,
       "swordFileName": "illusionarySword.png",
       "bodyFileName": "illusionaryPlayer.png",
-      "description": "So colorful..."
+      "description": "So colorful...",
+      "gunFileName": "gun.png"
     },
     "bird": {
       "name": "bird",
@@ -1296,7 +1425,8 @@
       "og": true,
       "swordFileName": "birdSword.png",
       "bodyFileName": "birdPlayer.png",
-      "description": "Watch out for the talons..."
+      "description": "Watch out for the talons...",
+      "gunFileName": "gun.png"
     },
     "bottlecap": {
       "name": "bottlecap",
@@ -1306,7 +1436,8 @@
       "og": true,
       "swordFileName": "bottlecapSword.png",
       "bodyFileName": "bottlecapPlayer.png",
-      "description": "A boost of energy"
+      "description": "A boost of energy",
+      "gunFileName": "gun.png"
     },
     "galaxy": {
       "name": "galaxy",
@@ -1316,7 +1447,8 @@
       "og": true,
       "swordFileName": "galaxySword.png",
       "bodyFileName": "galaxyPlayer.png",
-      "description": "Rule the cosmos"
+      "description": "Rule the cosmos",
+      "gunFileName": "gun.png"
     },
     "dragonfruit": {
       "name": "dragonfruit",
@@ -1326,7 +1458,8 @@
       "og": true,
       "swordFileName": "dragonfruitSword.png",
       "bodyFileName": "dragonfruitPlayer.png",
-      "description": "Tastes like a pear pineapple"
+      "description": "Tastes like a pear pineapple",
+      "gunFileName": "gun.png"
     },
     "pirate": {
       "name": "pirate",
@@ -1336,7 +1469,8 @@
       "og": true,
       "swordFileName": "pirateSword.png",
       "bodyFileName": "piratePlayer.png",
-      "description": "Fearsome"
+      "description": "Fearsome",
+      "gunFileName": "gun.png"
     },
     "neumorphism": {
       "name": "neumorphism",
@@ -1346,7 +1480,8 @@
       "og": true,
       "swordFileName": "neumorphismSword.png",
       "bodyFileName": "neumorphismPlayer.png",
-      "description": "Its neumorphic"
+      "description": "Its neumorphic",
+      "gunFileName": "gun.png"
     },
     "incendiary": {
       "name": "incendiary",
@@ -1356,7 +1491,8 @@
       "og": true,
       "swordFileName": "incendiarySword.png",
       "bodyFileName": "incendiaryPlayer.png",
-      "description": "Melt your gold"
+      "description": "Melt your gold",
+      "gunFileName": "gun.png"
     },
     "snake": {
       "name": "snake",
@@ -1366,7 +1502,8 @@
       "og": true,
       "swordFileName": "snakeSword.png",
       "bodyFileName": "snakePlayer.png",
-      "description": "Coil around coins"
+      "description": "Coil around coins",
+      "gunFileName": "gun.png"
     },
     "eclipse": {
       "name": "eclipse",
@@ -1376,7 +1513,8 @@
       "og": true,
       "swordFileName": "eclipseSword.png",
       "bodyFileName": "eclipsePlayer.png",
-      "description": "Make other players be in YOUR shadow"
+      "description": "Make other players be in YOUR shadow",
+      "gunFileName": "gun.png"
     },
     "magnet": {
       "name": "magnet",
@@ -1386,7 +1524,8 @@
       "og": true,
       "swordFileName": "magnetSword.png",
       "bodyFileName": "magnetPlayer.png",
-      "description": "Attracts gold"
+      "description": "Attracts gold",
+      "gunFileName": "gun.png"
     },
     "devex": {
       "name": "devex",
@@ -1396,7 +1535,8 @@
       "og": true,
       "swordFileName": "devexSword.png",
       "bodyFileName": "devexPlayer.png",
-      "description": "3x the power!"
+      "description": "3x the power!",
+      "gunFileName": "gun.png"
     },
     "boar": {
       "name": "boar",
@@ -1406,7 +1546,8 @@
       "og": true,
       "swordFileName": "boarSword.png",
       "bodyFileName": "boarPlayer.png",
-      "description": "Sharp horns..."
+      "description": "Sharp horns...",
+      "gunFileName": "gun.png"
     },
     "apocalypseogex": {
       "name": "apocalypseogex",
@@ -1416,7 +1557,8 @@
       "og": true,
       "swordFileName": "apocalypseSword.png",
       "bodyFileName": "apocalypsePlayer.png",
-      "description": "End the world"
+      "description": "End the world",
+      "gunFileName": "gun.png"
     },
     "onion": {
       "name": "onion",
@@ -1426,7 +1568,8 @@
       "og": true,
       "swordFileName": "onionSword.png",
       "bodyFileName": "onionPlayer.png",
-      "description": "Help! My eyes are watering!"
+      "description": "Help! My eyes are watering!",
+      "gunFileName": "gun.png"
     },
     "pie": {
       "name": "pie",
@@ -1436,7 +1579,8 @@
       "og": true,
       "swordFileName": "pieSword.png",
       "bodyFileName": "piePlayer.png",
-      "description": "A snack before destruction"
+      "description": "A snack before destruction",
+      "gunFileName": "gun.png"
     },
     "octopus": {
       "name": "octopus",
@@ -1446,7 +1590,8 @@
       "og": true,
       "swordFileName": "octopusSword.png",
       "bodyFileName": "octopusPlayer.png",
-      "description": "Drag them away"
+      "description": "Drag them away",
+      "gunFileName": "gun.png"
     },
     "camera": {
       "name": "camera",
@@ -1456,7 +1601,8 @@
       "og": true,
       "swordFileName": "cameraSword.png",
       "bodyFileName": "cameraPlayer.png",
-      "description": "A photo with your friends"
+      "description": "A photo with your friends",
+      "gunFileName": "gun.png"
     },
     "bubblegum": {
       "name": "bubblegum",
@@ -1466,7 +1612,8 @@
       "og": true,
       "swordFileName": "bubblegumSword.png",
       "bodyFileName": "bubblegumPlayer.png",
-      "description": "Blow it slowly"
+      "description": "Blow it slowly",
+      "gunFileName": "gun.png"
     },
     "angel": {
       "name": "angel",
@@ -1476,7 +1623,8 @@
       "og": true,
       "swordFileName": "angelSword.png",
       "bodyFileName": "angelPlayer.png",
-      "description": "The best at PVP. Ever."
+      "description": "The best at PVP. Ever.",
+      "gunFileName": "gun.png"
     },
     "starhogogex": {
       "name": "starhogogex",
@@ -1486,7 +1634,8 @@
       "og": true,
       "swordFileName": "starhogSword.png",
       "bodyFileName": "starhogPlayer.png",
-      "description": "A  hog in  space doesn't seem right..."
+      "description": "A  hog in  space doesn't seem right...",
+      "gunFileName": "gun.png"
     },
     "scuba": {
       "name": "scuba",
@@ -1496,7 +1645,8 @@
       "og": true,
       "swordFileName": "scubaSword.png",
       "bodyFileName": "scubaPlayer.png",
-      "description": "Go deep for coins"
+      "description": "Go deep for coins",
+      "gunFileName": "gun.png"
     },
     "fishogex": {
       "name": "fishogex",
@@ -1506,7 +1656,8 @@
       "og": true,
       "swordFileName": "fishSword.png",
       "bodyFileName": "fishPlayer.png",
-      "description": "C'est un poisson!"
+      "description": "C'est un poisson!",
+      "gunFileName": "gun.png"
     },
     "shurikenogex": {
       "name": "shurikenogex",
@@ -1516,7 +1667,8 @@
       "og": true,
       "swordFileName": "shurikenSword.png",
       "bodyFileName": "shurikenPlayer.png",
-      "description": "More than one edge"
+      "description": "More than one edge",
+      "gunFileName": "gun.png"
     },
     "glitch": {
       "name": "glitch",
@@ -1526,7 +1678,8 @@
       "og": true,
       "swordFileName": "glitchSword.png",
       "bodyFileName": "glitchPlayer.png",
-      "description": "Glitch them out of existence"
+      "description": "Glitch them out of existence",
+      "gunFileName": "gun.png"
     },
     "patchwork": {
       "name": "patchwork",
@@ -1536,7 +1689,8 @@
       "og": true,
       "swordFileName": "patchworkSword.png",
       "bodyFileName": "patchworkPlayer.png",
-      "description": "Its only being held together by some glitch..."
+      "description": "Its only being held together by some glitch...",
+      "gunFileName": "gun.png"
     },
     "virus": {
       "name": "virus",
@@ -1546,7 +1700,8 @@
       "og": true,
       "swordFileName": "virusSword.png",
       "bodyFileName": "virusPlayer.png",
-      "description": "Infect them all"
+      "description": "Infect them all",
+      "gunFileName": "gun.png"
     },
     "arachneogex": {
       "name": "arachneogex",
@@ -1556,7 +1711,8 @@
       "og": true,
       "swordFileName": "arachneSword.png",
       "bodyFileName": "arachnePlayer.png",
-      "description": "Crawl all over the coins"
+      "description": "Crawl all over the coins",
+      "gunFileName": "gun.png"
     },
     "shark": {
       "name": "shark",
@@ -1566,7 +1722,8 @@
       "og": true,
       "swordFileName": "sharkSword.png",
       "bodyFileName": "sharkPlayer.png",
-      "description": "You never know what will hide in the deep ocean"
+      "description": "You never know what will hide in the deep ocean",
+      "gunFileName": "gun.png"
     },
     "elements": {
       "name": "elements",
@@ -1576,7 +1733,8 @@
       "og": true,
       "swordFileName": "elementsSword.png",
       "bodyFileName": "elementsPlayer.png",
-      "description": "Be a swordbender... Make it your own element"
+      "description": "Be a swordbender... Make it your own element",
+      "gunFileName": "gun.png"
     },
     "acol": {
       "name": "acol",
@@ -1586,7 +1744,8 @@
       "og": true,
       "swordFileName": "acolSword.png",
       "bodyFileName": "acolPlayer.png",
-      "description": "The world's #1 player.."
+      "description": "The world's #1 player..",
+      "gunFileName": "gun.png"
     },
     "devil": {
       "name": "devil",
@@ -1596,7 +1755,8 @@
       "og": true,
       "swordFileName": "devilSword.png",
       "bodyFileName": "devilPlayer.png",
-      "description": "Now this will scare everyone!"
+      "description": "Now this will scare everyone!",
+      "gunFileName": "gun.png"
     },
     "demon": {
       "name": "demon",
@@ -1606,7 +1766,8 @@
       "og": true,
       "swordFileName": "demonSword.png",
       "bodyFileName": "demonPlayer.png",
-      "description": "Brother of the devil"
+      "description": "Brother of the devil",
+      "gunFileName": "gun.png"
     },
     "mossmech": {
       "name": "mossmech",
@@ -1616,7 +1777,8 @@
       "og": true,
       "swordFileName": "mossmechSword.png",
       "bodyFileName": "mossmechPlayer.png",
-      "description": "Rise from the wild and DOMINATE!"
+      "description": "Rise from the wild and DOMINATE!",
+      "gunFileName": "gun.png"
     },
     "explosionogex": {
       "name": "explosionogex",
@@ -1626,7 +1788,8 @@
       "og": true,
       "swordFileName": "explosionSword.png",
       "bodyFileName": "explosionPlayer.png",
-      "description": "I hope they're not nukes.."
+      "description": "I hope they're not nukes..",
+      "gunFileName": "gun.png"
     },
     "honeycomb": {
       "name": "honeycomb",
@@ -1636,7 +1799,8 @@
       "og": true,
       "swordFileName": "honeycombSword.png",
       "bodyFileName": "honeycombPlayer.png",
-      "description": "Very sweet!"
+      "description": "Very sweet!",
+      "gunFileName": "gun.png"
     },
     "storm": {
       "name": "storm",
@@ -1646,7 +1810,8 @@
       "og": true,
       "swordFileName": "stormSword.png",
       "bodyFileName": "stormPlayer.png",
-      "description": "A storm is brewing"
+      "description": "A storm is brewing",
+      "gunFileName": "gun.png"
     },
     "cookie": {
       "name": "cookie",
@@ -1656,7 +1821,8 @@
       "og": true,
       "swordFileName": "cookieSword.png",
       "bodyFileName": "cookiePlayer.png",
-      "description": "Scrumptious!"
+      "description": "Scrumptious!",
+      "gunFileName": "gun.png"
     },
     "controller": {
       "name": "controller",
@@ -1666,7 +1832,8 @@
       "og": true,
       "swordFileName": "controllerSword.png",
       "bodyFileName": "controllerPlayer.png",
-      "description": "Use this to control the computer skin"
+      "description": "Use this to control the computer skin",
+      "gunFileName": "gun.png"
     },
     "computer": {
       "name": "computer",
@@ -1676,7 +1843,8 @@
       "og": true,
       "swordFileName": "computerSword.png",
       "bodyFileName": "computerPlayer.png",
-      "description": "Play swordbattle on swordbattle"
+      "description": "Play swordbattle on swordbattle",
+      "gunFileName": "gun.png"
     },
     "skull": {
       "name": "skull",
@@ -1686,7 +1854,8 @@
       "og": true,
       "swordFileName": "skullSword.png",
       "bodyFileName": "skullPlayer.png",
-      "description": "Scary"
+      "description": "Scary",
+      "gunFileName": "gun.png"
     },
     "mitblade": {
       "name": "mitblade",
@@ -1696,7 +1865,8 @@
       "og": true,
       "swordFileName": "mitbladeSword.png",
       "bodyFileName": "mitbladePlayer.png",
-      "description": "\"Buy channel membership only $3!!!!\""
+      "description": "\"Buy channel membership only $3!!!!\"",
+      "gunFileName": "gun.png"
     },
     "cylinder": {
       "name": "cylinder",
@@ -1706,7 +1876,8 @@
       "og": true,
       "swordFileName": "cylinderSword.png",
       "bodyFileName": "cylinderPlayer.png",
-      "description": "Its 3D. Its just better like that."
+      "description": "Its 3D. Its just better like that.",
+      "gunFileName": "gun.png"
     },
     "solarsystemogex": {
       "name": "solarsystemogex",
@@ -1716,7 +1887,8 @@
       "og": true,
       "swordFileName": "solarsystemSword.png",
       "bodyFileName": "solarsystemPlayer.png",
-      "description": "PLUTO"
+      "description": "PLUTO",
+      "gunFileName": "gun.png"
     },
     "microwave": {
       "name": "microwave",
@@ -1726,7 +1898,8 @@
       "og": true,
       "swordFileName": "microwaveSword.png",
       "bodyFileName": "microwavePlayer.png",
-      "description": "The microwave will burn you to ashes..."
+      "description": "The microwave will burn you to ashes...",
+      "gunFileName": "gun.png"
     },
     "soundwave": {
       "name": "soundwave",
@@ -1736,7 +1909,8 @@
       "og": true,
       "swordFileName": "soundwaveSword.png",
       "bodyFileName": "soundwavePlayer.png",
-      "description": "BOOM!!!"
+      "description": "BOOM!!!",
+      "gunFileName": "gun.png"
     },
     "predator": {
       "name": "predator",
@@ -1746,7 +1920,8 @@
       "og": true,
       "swordFileName": "predatorSword.png",
       "bodyFileName": "predatorPlayer.png",
-      "description": "Hunt them down..."
+      "description": "Hunt them down...",
+      "gunFileName": "gun.png"
     },
     "mercenary": {
       "name": "mercenary",
@@ -1756,7 +1931,8 @@
       "og": true,
       "swordFileName": "mercenarySword.png",
       "bodyFileName": "mercenaryPlayer.png",
-      "description": "Hunt down predators"
+      "description": "Hunt down predators",
+      "gunFileName": "gun.png"
     },
     "biker": {
       "name": "biker",
@@ -1766,7 +1942,8 @@
       "og": true,
       "swordFileName": "bikerSword.png",
       "bodyFileName": "bikerPlayer.png",
-      "description": "Training to be assassin"
+      "description": "Training to be assassin",
+      "gunFileName": "gun.png"
     },
     "reaper": {
       "name": "reaper",
@@ -1776,7 +1953,8 @@
       "og": true,
       "swordFileName": "reaperSword.png",
       "bodyFileName": "reaperPlayer.png",
-      "description": "Scary... watch out"
+      "description": "Scary... watch out",
+      "gunFileName": "gun.png"
     },
     "laserfoil": {
       "name": "laserfoil",
@@ -1785,7 +1963,8 @@
       "buyable": false,
       "og": true,
       "swordFileName": "laserfoilSword.png",
-      "bodyFileName": "laserfoilPlayer.png"
+      "bodyFileName": "laserfoilPlayer.png",
+      "gunFileName": "gun.png"
     },
     "scytheogex": {
       "name": "scytheogex",
@@ -1795,7 +1974,8 @@
       "og": true,
       "swordFileName": "scytheSword.png",
       "bodyFileName": "scythePlayer.png",
-      "description": "I'm coming for you!"
+      "description": "I'm coming for you!",
+      "gunFileName": "gun.png"
     },
     "sandcastle": {
       "name": "sandcastle",
@@ -1805,7 +1985,8 @@
       "og": true,
       "swordFileName": "sandcastleSword.png",
       "bodyFileName": "sandcastlePlayer.png",
-      "description": "The strength of a million grains of sand"
+      "description": "The strength of a million grains of sand",
+      "gunFileName": "gun.png"
     },
     "supremeneon": {
       "name": "supremeneon",
@@ -1815,7 +1996,8 @@
       "og": true,
       "swordFileName": "supremeneonSword.png",
       "bodyFileName": "supremeneonPlayer.png",
-      "description": "Neon but better"
+      "description": "Neon but better",
+      "gunFileName": "gun.png"
     },
     "shadow": {
       "name": "shadow",
@@ -1825,7 +2007,8 @@
       "og": true,
       "swordFileName": "shadowSword.png",
       "bodyFileName": "shadowPlayer.png",
-      "description": "Fight with a legendary Shadowblade"
+      "description": "Fight with a legendary Shadowblade",
+      "gunFileName": "gun.png"
     },
     "bush": {
       "name": "bush",
@@ -1835,7 +2018,8 @@
       "og": true,
       "swordFileName": "bushSword.png",
       "bodyFileName": "bushPlayer.png",
-      "description": "The ultimate camouflage."
+      "description": "The ultimate camouflage.",
+      "gunFileName": "gun.png"
     },
     "codergautamyt": {
       "name": "codergautamyt",
@@ -1845,7 +2029,8 @@
       "og": true,
       "swordFileName": "codergautamytSword.png",
       "bodyFileName": "codergautamytPlayer.png",
-      "description": "The creator of swordbattle.."
+      "description": "The creator of swordbattle..",
+      "gunFileName": "gun.png"
     },
     "assasin": {
       "name": "assasin",
@@ -1855,7 +2040,8 @@
       "og": true,
       "swordFileName": "assasinSword.png",
       "bodyFileName": "assasinPlayer.png",
-      "description": "You don't stand a chance-"
+      "description": "You don't stand a chance-",
+      "gunFileName": "gun.png"
     },
     "anniversary": {
       "name": "anniversary",
@@ -1865,7 +2051,8 @@
       "og": true,
       "swordFileName": "anniversarySword.png",
       "bodyFileName": "anniversaryPlayer.png",
-      "description": "Celebrate the 1 year anniversary of the game!"
+      "description": "Celebrate the 1 year anniversary of the game!",
+      "gunFileName": "gun.png"
     },
     "dragon": {
       "name": "dragon",
@@ -1875,7 +2062,8 @@
       "og": true,
       "swordFileName": "dragonSword.png",
       "bodyFileName": "dragonPlayer.png",
-      "description": "The king of the skies... and swords."
+      "description": "The king of the skies... and swords.",
+      "gunFileName": "gun.png"
     },
     "seafire": {
       "name": "seafire",
@@ -1885,7 +2073,8 @@
       "price": 400,
       "swordFileName": "seafireSword.png",
       "bodyFileName": "seafirePlayer.png",
-      "description": "When lava and water meet by the volcano’s side, the sea ignites."
+      "description": "When lava and water meet by the volcano’s side, the sea ignites.",
+      "gunFileName": "gun.png"
     },
     "keyboard": {
       "name": "keyboard",
@@ -1895,7 +2084,8 @@
       "price": 3000,
       "swordFileName": "keyboardSword.png",
       "bodyFileName": "keyboardPlayer.png",
-      "description": "Beethoven would be proud."
+      "description": "Beethoven would be proud.",
+      "gunFileName": "gun.png"
     },
     "ghost": {
       "name": "ghost",
@@ -1905,7 +2095,8 @@
       "price": 1500,
       "swordFileName": "ghostSword.png",
       "bodyFileName": "ghostPlayer.png",
-      "description": "Boo!"
+      "description": "Boo!",
+      "gunFileName": "gun.png"
     },
     "hypersphere": {
       "name": "hypersphere",
@@ -1915,7 +2106,8 @@
       "price": 1000,
       "swordFileName": "hypersphereSword.png",
       "bodyFileName": "hyperspherePlayer.png",
-      "description": "Enter the hyperverse..."
+      "description": "Enter the hyperverse...",
+      "gunFileName": "gun.png"
     },
     "udon": {
       "name": "udon",
@@ -1925,7 +2117,8 @@
       "price": 500,
       "swordFileName": "udonSword.png",
       "bodyFileName": "udonPlayer.png",
-      "description": "You can't fight on an empty stomach."
+      "description": "You can't fight on an empty stomach.",
+      "gunFileName": "gun.png"
     },
     "gingerbread": {
       "name": "gingerbread",
@@ -1935,7 +2128,8 @@
       "price": 200,
       "swordFileName": "gingerbreadSword.png",
       "bodyFileName": "gingerbreadPlayer.png",
-      "description": "Tis the season to eat gingerbread! Nom nom nom nom nom, Nom nom, Nom, Nom."
+      "description": "Tis the season to eat gingerbread! Nom nom nom nom nom, Nom nom, Nom, Nom.",
+      "gunFileName": "gun.png"
     },
     "corruption": {
       "name": "corruption",
@@ -1945,7 +2139,8 @@
       "price": 2000,
       "swordFileName": "corruptionSword.png",
       "bodyFileName": "corruptionPlayer.png",
-      "description": "The corruption spreads..."
+      "description": "The corruption spreads...",
+      "gunFileName": "gun.png"
     },
     "pawn": {
       "name": "pawn",
@@ -1955,7 +2150,8 @@
       "price": 15000,
       "swordFileName": "pawnSword.png",
       "bodyFileName": "pawnPlayer.png",
-      "description": "Checkmate!"
+      "description": "Checkmate!",
+      "gunFileName": "gun.png"
     },
     "miner": {
       "name": "miner",
@@ -1965,7 +2161,8 @@
       "price": 750000,
       "swordFileName": "minerSword.png",
       "bodyFileName": "minerPlayer.png",
-      "description": "Dig for gold!"
+      "description": "Dig for gold!",
+      "gunFileName": "gun.png"
     },
     "snowglobe": {
       "name": "snowglobe",
@@ -1975,7 +2172,8 @@
       "price": 350000,
       "swordFileName": "snowglobeSword.png",
       "bodyFileName": "snowglobePlayer.png",
-      "description": "Let it snow!"
+      "description": "Let it snow!",
+      "gunFileName": "gun.png"
     },
     "maskedPhoenix": {
       "name": "maskedPhoenix",
@@ -1985,7 +2183,8 @@
       "price": 20000,
       "swordFileName": "maskedPhoenixSword.png",
       "bodyFileName": "maskedPhoenixPlayer.png",
-      "description": "Rise from the ashes!"
+      "description": "Rise from the ashes!",
+      "gunFileName": "gun.png"
     },
     "blade": {
       "name": "blade",
@@ -1995,7 +2194,8 @@
       "price": 10000,
       "swordFileName": "bladeSword.png",
       "bodyFileName": "bladePlayer.png",
-      "description": "Technoblade never dies!"
+      "description": "Technoblade never dies!",
+      "gunFileName": "gun.png"
     },
     "aerial": {
       "name": "aerial",
@@ -2005,7 +2205,8 @@
       "price": 550,
       "swordFileName": "aerialSword.png",
       "bodyFileName": "aerialPlayer.png",
-      "description": "Strike from the skies!"
+      "description": "Strike from the skies!",
+      "gunFileName": "gun.png"
     },
     "aztec": {
       "name": "aztec",
@@ -2015,7 +2216,8 @@
       "price": 150000,
       "swordFileName": "aztecSword.png",
       "bodyFileName": "aztecPlayer.png",
-      "description": "A lost artifact that has finally been found..."
+      "description": "A lost artifact that has finally been found...",
+      "gunFileName": "gun.png"
     },
     "bombboy": {
       "name": "bombboy",
@@ -2025,7 +2227,8 @@
       "price": 600,
       "swordFileName": "bombboySword.png",
       "bodyFileName": "bombboyPlayer.png",
-      "description": "Explosive!"
+      "description": "Explosive!",
+      "gunFileName": "gun.png"
     },
     "bonedragon": {
       "name": "bonedragon",
@@ -2035,7 +2238,8 @@
       "price": 100000,
       "swordFileName": "bonedragonSword.png",
       "bodyFileName": "bonedragonPlayer.png",
-      "description": "Reawaken the beast..."
+      "description": "Reawaken the beast...",
+      "gunFileName": "gun.png"
     },
     "coolcarl": {
       "name": "coolcarl",
@@ -2045,7 +2249,8 @@
       "price": 1250,
       "swordFileName": "coolcarlSword.png",
       "bodyFileName": "coolcarlPlayer.png",
-      "description": "He's just cool like that."
+      "description": "He's just cool like that.",
+      "gunFileName": "gun.png"
     },
     "crabby": {
       "name": "crabby",
@@ -2055,7 +2260,8 @@
       "price": 3000,
       "swordFileName": "crabbySword.png",
       "bodyFileName": "crabbyPlayer.png",
-      "description": "For cranky grinders and crabby fighters."
+      "description": "For cranky grinders and crabby fighters.",
+      "gunFileName": "gun.png"
     },
     "danger": {
       "name": "danger",
@@ -2065,7 +2271,8 @@
       "price": 12500,
       "swordFileName": "dangerSword.png",
       "bodyFileName": "dangerPlayer.png",
-      "description": "I am the danger..."
+      "description": "I am the danger...",
+      "gunFileName": "gun.png"
     },
     "dragonfly": {
       "name": "dragonfly",
@@ -2075,7 +2282,8 @@
       "price": 7500,
       "swordFileName": "dragonflySword.png",
       "bodyFileName": "dragonflyPlayer.png",
-      "description": "As ferocious as a dragon, as fast as a fly."
+      "description": "As ferocious as a dragon, as fast as a fly.",
+      "gunFileName": "gun.png"
     },
     "midnight": {
       "name": "midnight",
@@ -2085,7 +2293,8 @@
       "price": 14500,
       "swordFileName": "midnightSword.png",
       "bodyFileName": "midnightPlayer.png",
-      "description": "Swords are only silhouettes in the darkness..."
+      "description": "Swords are only silhouettes in the darkness...",
+      "gunFileName": "gun.png"
     },
     "void": {
       "name": "void",
@@ -2095,7 +2304,8 @@
       "price": 14000,
       "swordFileName": "voidSword.png",
       "bodyFileName": "voidPlayer.png",
-      "description": "The gateway between reality and oblivion..."
+      "description": "The gateway between reality and oblivion...",
+      "gunFileName": "gun.png"
     },
     "pixel": {
       "name": "pixel",
@@ -2105,7 +2315,8 @@
       "price": 3500,
       "swordFileName": "pixelSword.png",
       "bodyFileName": "pixelPlayer.png",
-      "description": "Pixel is better."
+      "description": "Pixel is better.",
+      "gunFileName": "gun.png"
     },
     "rose": {
       "name": "rose",
@@ -2115,7 +2326,8 @@
       "price": 6000,
       "swordFileName": "roseSword.png",
       "bodyFileName": "rosePlayer.png",
-      "description": "Flatter the competition."
+      "description": "Flatter the competition.",
+      "gunFileName": "gun.png"
     },
     "shell": {
       "name": "shell",
@@ -2125,7 +2337,8 @@
       "price": 26000,
       "swordFileName": "shellSword.png",
       "bodyFileName": "shellPlayer.png",
-      "description": "Quick! Hide in your shell."
+      "description": "Quick! Hide in your shell.",
+      "gunFileName": "gun.png"
     },
     "stainedglass": {
       "name": "stainedglass",
@@ -2135,7 +2348,8 @@
       "price": 13000,
       "swordFileName": "stainedglassSword.png",
       "bodyFileName": "stainedglassPlayer.png",
-      "description": "Too cool to be normal glass, yet too opaque to bee seen through"
+      "description": "Too cool to be normal glass, yet too opaque to bee seen through",
+      "gunFileName": "gun.png"
     },
     "goldeneye": {
       "name": "goldeneye",
@@ -2145,7 +2359,8 @@
       "price": 65000,
       "swordFileName": "goldeneyeSword.png",
       "bodyFileName": "goldeneyePlayer.png",
-      "description": "The eye of the beholder."
+      "description": "The eye of the beholder.",
+      "gunFileName": "gun.png"
     },
     "ancientcoin": {
       "name": "ancientcoin",
@@ -2155,7 +2370,8 @@
       "price": 35000,
       "swordFileName": "ancientcoinSword.png",
       "bodyFileName": "ancientcoinPlayer.png",
-      "description": "Once a simple coin, now a relic worth thousands"
+      "description": "Once a simple coin, now a relic worth thousands",
+      "gunFileName": "gun.png"
     },
     "apple": {
       "name": "apple",
@@ -2165,7 +2381,8 @@
       "price": 125,
       "swordFileName": "appleSword.png",
       "bodyFileName": "applePlayer.png",
-      "description": "An apple a day keeps The Roku away!"
+      "description": "An apple a day keeps The Roku away!",
+      "gunFileName": "gun.png"
     },
     "auroraborealis": {
       "name": "auroraborealis",
@@ -2175,7 +2392,8 @@
       "price": 900,
       "swordFileName": "auroraborealisSword.png",
       "bodyFileName": "auroraborealisPlayer.png",
-      "description": "Distract your opponents with a magnificent sight to see."
+      "description": "Distract your opponents with a magnificent sight to see.",
+      "gunFileName": "gun.png"
     },
     "autumn": {
       "name": "autumn",
@@ -2185,7 +2403,8 @@
       "price": 150,
       "swordFileName": "autumnSword.png",
       "bodyFileName": "autumnPlayer.png",
-      "description": "Autumn is here!"
+      "description": "Autumn is here!",
+      "gunFileName": "gun.png"
     },
     "beachv2": {
       "name": "beachv2",
@@ -2195,7 +2414,8 @@
       "price": 2250,
       "swordFileName": "beachv2Sword.png",
       "bodyFileName": "beachv2Player.png",
-      "description": "As I see it, summer never ends!"
+      "description": "As I see it, summer never ends!",
+      "gunFileName": "gun.png"
     },
     "blackandwhite": {
       "name": "blackandwhite",
@@ -2205,7 +2425,8 @@
       "price": 12000,
       "swordFileName": "blackandwhiteSword.png",
       "bodyFileName": "blackandwhitePlayer.png",
-      "description": "A warrior of true balance"
+      "description": "A warrior of true balance",
+      "gunFileName": "gun.png"
     },
     "blueberryv2": {
       "name": "blueberryv2",
@@ -2215,7 +2436,8 @@
       "price": 80,
       "swordFileName": "blueberryv2Sword.png",
       "bodyFileName": "blueberryv2Player.png",
-      "description": "Embrace the sweet taste of victory!"
+      "description": "Embrace the sweet taste of victory!",
+      "gunFileName": "gun.png"
     },
     "brick": {
       "name": "brick",
@@ -2225,7 +2447,8 @@
       "price": 800,
       "swordFileName": "brickSword.png",
       "bodyFileName": "brickPlayer.png",
-      "description": "Smack your enemies with the force of a thousand bricks!"
+      "description": "Smack your enemies with the force of a thousand bricks!",
+      "gunFileName": "gun.png"
     },
     "broken": {
       "name": "broken",
@@ -2235,7 +2458,8 @@
       "price": 8500,
       "swordFileName": "brokenSword.png",
       "bodyFileName": "brokenPlayer.png",
-      "description": "Something that was never meant to be seen..."
+      "description": "Something that was never meant to be seen...",
+      "gunFileName": "gun.png"
     },
     "chest": {
       "name": "chest",
@@ -2245,7 +2469,8 @@
       "price": 22500,
       "swordFileName": "chestSword.png",
       "bodyFileName": "chestPlayer.png",
-      "description": "You have become the very thing you swore to destroy!"
+      "description": "You have become the very thing you swore to destroy!",
+      "gunFileName": "gun.png"
     },
     "chroma": {
       "name": "chroma",
@@ -2255,7 +2480,8 @@
       "price": 255255,
       "swordFileName": "chromaSword.png",
       "bodyFileName": "chromaPlayer.png",
-      "description": "A prismatic amalgamation..."
+      "description": "A prismatic amalgamation...",
+      "gunFileName": "gun.png"
     },
     "cowboy": {
       "name": "cowboy",
@@ -2265,7 +2491,8 @@
       "price": 600,
       "swordFileName": "cowboySword.png",
       "bodyFileName": "cowboyPlayer.png",
-      "description": "Yeehaw!"
+      "description": "Yeehaw!",
+      "gunFileName": "gun.png"
     },
     "crosshair": {
       "name": "crosshair",
@@ -2275,7 +2502,8 @@
       "price": 27500,
       "swordFileName": "crosshairSword.png",
       "bodyFileName": "crosshairPlayer.png",
-      "description": "This might come as a surprise, but I'm pretty good at throwing swords"
+      "description": "This might come as a surprise, but I'm pretty good at throwing swords",
+      "gunFileName": "gun.png"
     },
     "cybernetic": {
       "name": "cybernetic",
@@ -2285,7 +2513,8 @@
       "price": 600000,
       "swordFileName": "cyberneticSword.png",
       "bodyFileName": "cyberneticPlayer.png",
-      "description": "The final advancement in technology..."
+      "description": "The final advancement in technology...",
+      "gunFileName": "gun.png"
     },
     "digital": {
       "name": "digital",
@@ -2295,7 +2524,8 @@
       "price": 10101,
       "swordFileName": "digitalSword.png",
       "bodyFileName": "digitalPlayer.png",
-      "description": "01110011 01110111 01101111 01110010 01100100"
+      "description": "01110011 01110111 01101111 01110010 01100100",
+      "gunFileName": "gun.png"
     },
     "disguised": {
       "name": "disguised",
@@ -2305,7 +2535,8 @@
       "price": 9000,
       "swordFileName": "disguisedSword.png",
       "bodyFileName": "disguisedPlayer.png",
-      "description": "Who's behind the disguise?"
+      "description": "Who's behind the disguise?",
+      "gunFileName": "gun.png"
     },
     "donutv2": {
       "name": "donutv2",
@@ -2315,7 +2546,8 @@
       "price": 8000,
       "swordFileName": "donutv2Sword.png",
       "bodyFileName": "donutv2Player.png",
-      "description": "SUGAR RUSH!!!"
+      "description": "SUGAR RUSH!!!",
+      "gunFileName": "gun.png"
     },
     "fireandwater": {
       "name": "fireandwater",
@@ -2325,7 +2557,8 @@
       "price": 5500,
       "swordFileName": "fireandwaterSword.png",
       "bodyFileName": "fireandwaterPlayer.png",
-      "description": "An equilibrium of elements."
+      "description": "An equilibrium of elements.",
+      "gunFileName": "gun.png"
     },
     "firework": {
       "name": "firework",
@@ -2335,7 +2568,8 @@
       "price": 6500,
       "swordFileName": "fireworkSword.png",
       "bodyFileName": "fireworkPlayer.png",
-      "description": "Beautiful to watch until the fireworks start going after you!"
+      "description": "Beautiful to watch until the fireworks start going after you!",
+      "gunFileName": "gun.png"
     },
     "glassv2": {
       "name": "glassv2",
@@ -2345,7 +2579,8 @@
       "price": 4500,
       "swordFileName": "glassv2Sword.png",
       "bodyFileName": "glassv2Player.png",
-      "description": "Let me be clear..."
+      "description": "Let me be clear...",
+      "gunFileName": "gun.png"
     },
     "golden": {
       "name": "golden",
@@ -2355,7 +2590,8 @@
       "price": 25000,
       "swordFileName": "goldenSword.png",
       "bodyFileName": "goldenPlayer.png",
-      "description": "I'm made of coins, both metaphorically and literally!"
+      "description": "I'm made of coins, both metaphorically and literally!",
+      "gunFileName": "gun.png"
     },
     "hologram": {
       "name": "hologram",
@@ -2365,7 +2601,8 @@
       "price": 3250,
       "swordFileName": "hologramSword.png",
       "bodyFileName": "hologramPlayer.png",
-      "description": "The thing you're fighting is no longer physical..."
+      "description": "The thing you're fighting is no longer physical...",
+      "gunFileName": "gun.png"
     },
     "hotairballoon": {
       "name": "hotairballoon",
@@ -2375,7 +2612,8 @@
       "price": 450,
       "swordFileName": "hotairballoonSword.png",
       "bodyFileName": "hotairballoonPlayer.png",
-      "description": "Send your opponents sailing into the sky!"
+      "description": "Send your opponents sailing into the sky!",
+      "gunFileName": "gun.png"
     },
     "infinity": {
       "name": "infinity",
@@ -2385,7 +2623,8 @@
       "price": 88888,
       "swordFileName": "infinitySword.png",
       "bodyFileName": "infinityPlayer.png",
-      "description": "No longer bound by limits..."
+      "description": "No longer bound by limits...",
+      "gunFileName": "gun.png"
     },
     "light": {
       "name": "light",
@@ -2395,7 +2634,8 @@
       "price": 550,
       "swordFileName": "lightSword.png",
       "bodyFileName": "lightPlayer.png",
-      "description": "Too bright!"
+      "description": "Too bright!",
+      "gunFileName": "gun.png"
     },
     "lightningconjurer": {
       "name": "lightningconjurer",
@@ -2405,7 +2645,8 @@
       "price": 17500,
       "swordFileName": "lightningconjurerSword.png",
       "bodyFileName": "lightningconjurerPlayer.png",
-      "description": "Strike down your opponents (literally)"
+      "description": "Strike down your opponents (literally)",
+      "gunFileName": "gun.png"
     },
     "luminous": {
       "name": "luminous",
@@ -2415,7 +2656,8 @@
       "price": 750,
       "swordFileName": "luminousSword.png",
       "bodyFileName": "luminousPlayer.png",
-      "description": "Light up the arena!"
+      "description": "Light up the arena!",
+      "gunFileName": "gun.png"
     },
     "mace": {
       "name": "mace",
@@ -2425,7 +2667,8 @@
       "price": 7000,
       "swordFileName": "maceSword.png",
       "bodyFileName": "macePlayer.png",
-      "description": "Why slice your enemies when you can simply whack them?"
+      "description": "Why slice your enemies when you can simply whack them?",
+      "gunFileName": "gun.png"
     },
     "magmatic": {
       "name": "magmatic",
@@ -2435,7 +2678,8 @@
       "price": 30000,
       "swordFileName": "magmaticSword.png",
       "bodyFileName": "magmaticPlayer.png",
-      "description": "Conjure magma from deep in the mantle..."
+      "description": "Conjure magma from deep in the mantle...",
+      "gunFileName": "gun.png"
     },
     "metal": {
       "name": "metal",
@@ -2445,7 +2689,8 @@
       "price": 300,
       "swordFileName": "metalSword.png",
       "bodyFileName": "metalPlayer.png",
-      "description": "Great for both swords and armor!"
+      "description": "Great for both swords and armor!",
+      "gunFileName": "gun.png"
     },
     "orange": {
       "name": "orange",
@@ -2455,7 +2700,8 @@
       "price": 2250,
       "swordFileName": "orangeSword.png",
       "bodyFileName": "orangePlayer.png",
-      "description": "Can you handle the tang?"
+      "description": "Can you handle the tang?",
+      "gunFileName": "gun.png"
     },
     "radar": {
       "name": "radar",
@@ -2465,7 +2711,8 @@
       "price": 5750,
       "swordFileName": "radarSword.png",
       "bodyFileName": "radarPlayer.png",
-      "description": "You can't hide from me!"
+      "description": "You can't hide from me!",
+      "gunFileName": "gun.png"
     },
     "redux": {
       "name": "redux",
@@ -2475,7 +2722,8 @@
       "price": 1000,
       "swordFileName": "reduxSword.png",
       "bodyFileName": "reduxPlayer.png",
-      "description": "The same original skin in a modern, polished style!"
+      "description": "The same original skin in a modern, polished style!",
+      "gunFileName": "gun.png"
     },
     "refusal": {
       "name": "refusal",
@@ -2485,7 +2733,8 @@
       "price": 350,
       "swordFileName": "refusalSword.png",
       "bodyFileName": "refusalPlayer.png",
-      "description": "Never accept defeat!"
+      "description": "Never accept defeat!",
+      "gunFileName": "gun.png"
     },
     "robo": {
       "name": "robo",
@@ -2495,7 +2744,8 @@
       "price": 2500,
       "swordFileName": "roboSword.png",
       "bodyFileName": "roboPlayer.png",
-      "description": "Battle mode activated!"
+      "description": "Battle mode activated!",
+      "gunFileName": "gun.png"
     },
     "shield": {
       "name": "shield",
@@ -2505,7 +2755,8 @@
       "price": 45000,
       "swordFileName": "shieldSword.png",
       "bodyFileName": "shieldPlayer.png",
-      "description": "The best defense!"
+      "description": "The best defense!",
+      "gunFileName": "gun.png"
     },
     "steampunk": {
       "name": "steampunk",
@@ -2515,7 +2766,8 @@
       "price": 500000,
       "swordFileName": "steampunkSword.png",
       "bodyFileName": "steampunkPlayer.png",
-      "description": "Killin' like clockwork"
+      "description": "Killin' like clockwork",
+      "gunFileName": "gun.png"
     },
     "sunsetv2": {
       "name": "sunsetv2",
@@ -2525,7 +2777,8 @@
       "price": 3500,
       "swordFileName": "sunsetv2Sword.png",
       "bodyFileName": "sunsetv2Player.png",
-      "description": "The last light your enemies will see before darkness..."
+      "description": "The last light your enemies will see before darkness...",
+      "gunFileName": "gun.png"
     },
     "thedivider": {
       "name": "thedivider",
@@ -2535,7 +2788,8 @@
       "price": 200000,
       "swordFileName": "thedividerSword.png",
       "bodyFileName": "thedividerPlayer.png",
-      "description": "A single slice will divide anything into two..."
+      "description": "A single slice will divide anything into two...",
+      "gunFileName": "gun.png"
     },
     "unknown": {
       "name": "unknown",
@@ -2545,7 +2799,8 @@
       "price": 75,
       "swordFileName": "unknownSword.png",
       "bodyFileName": "unknownPlayer.png",
-      "description": "Who knows?"
+      "description": "Who knows?",
+      "gunFileName": "gun.png"
     },
     "world": {
       "name": "world",
@@ -2555,7 +2810,8 @@
       "price": 4250,
       "swordFileName": "worldSword.png",
       "bodyFileName": "worldPlayer.png",
-      "description": "Swing swords across the globe!"
+      "description": "Swing swords across the globe!",
+      "gunFileName": "gun.png"
     },
     "desertninja": {
       "name": "desertninja",
@@ -2565,7 +2821,8 @@
       "price": 22222,
       "swordFileName": "desertninjaSword.png",
       "bodyFileName": "desertninjaPlayer.png",
-      "description": "Just another grain of sand throughout the endless dunes..."
+      "description": "Just another grain of sand throughout the endless dunes...",
+      "gunFileName": "gun.png"
     },
     "lavaninja": {
       "name": "lavaninja",
@@ -2575,7 +2832,8 @@
       "price": 33333,
       "swordFileName": "lavaninjaSword.png",
       "bodyFileName": "lavaninjaPlayer.png",
-      "description": "You can probably guess what this guy's favorite biome is"
+      "description": "You can probably guess what this guy's favorite biome is",
+      "gunFileName": "gun.png"
     },
     "thundercloudninja": {
       "name": "thundercloudninja",
@@ -2585,7 +2843,8 @@
       "price": 44444,
       "swordFileName": "thundercloudninjaSword.png",
       "bodyFileName": "thundercloudninjaPlayer.png",
-      "description": "Hide in the clouds and strike from above!"
+      "description": "Hide in the clouds and strike from above!",
+      "gunFileName": "gun.png"
     },
     "summitninja": {
       "name": "summitninja",
@@ -2595,7 +2854,8 @@
       "price": 55555,
       "swordFileName": "summitninjaSword.png",
       "bodyFileName": "summitninjaPlayer.png",
-      "description": "There are always challenges to face before you reach the summit..."
+      "description": "There are always challenges to face before you reach the summit...",
+      "gunFileName": "gun.png"
     },
     "nightmareninja": {
       "name": "nightmareninja",
@@ -2605,7 +2865,8 @@
       "price": 66666,
       "swordFileName": "nightmareninjaSword.png",
       "bodyFileName": "nightmareninjaPlayer.png",
-      "description": "There's always a reason why people become evil..."
+      "description": "There's always a reason why people become evil...",
+      "gunFileName": "gun.png"
     },
     "forestninja": {
       "name": "forestninja",
@@ -2615,7 +2876,8 @@
       "price": 9999,
       "swordFileName": "forestninjaSword.png",
       "bodyFileName": "forestninjaPlayer.png",
-      "description": "A rogue soldier who travels alone."
+      "description": "A rogue soldier who travels alone.",
+      "gunFileName": "gun.png"
     },
     "ninjav2": {
       "name": "ninjav2",
@@ -2625,7 +2887,8 @@
       "price": 111,
       "swordFileName": "ninjav2Sword.png",
       "bodyFileName": "ninjav2Player.png",
-      "description": "A warrior with swiftness and stealth..."
+      "description": "A warrior with swiftness and stealth...",
+      "gunFileName": "gun.png"
     },
     "ash": {
       "name": "ash",
@@ -2635,7 +2898,8 @@
       "price": 850,
       "swordFileName": "ashSword.png",
       "bodyFileName": "ashPlayer.png",
-      "description": "The last thing remaining after everything else has burned down..."
+      "description": "The last thing remaining after everything else has burned down...",
+      "gunFileName": "gun.png"
     },
     "empyrean": {
       "name": "empyrean",
@@ -2645,7 +2909,8 @@
       "price": 13500,
       "swordFileName": "empyreanSword.png",
       "bodyFileName": "empyreanPlayer.png",
-      "description": "Ward off the evil energy of the void"
+      "description": "Ward off the evil energy of the void",
+      "gunFileName": "gun.png"
     },
     "fade": {
       "name": "fade",
@@ -2655,7 +2920,8 @@
       "price": 4250,
       "swordFileName": "fadeSword.png",
       "bodyFileName": "fadePlayer.png",
-      "description": "Make your enemies fade away..."
+      "description": "Make your enemies fade away...",
+      "gunFileName": "gun.png"
     },
     "nightlurker": {
       "name": "nightlurker",
@@ -2665,7 +2931,8 @@
       "price": 60000,
       "swordFileName": "nightlurkerSword.png",
       "bodyFileName": "nightlurkerPlayer.png",
-      "description": "Still remains to be seen..."
+      "description": "Still remains to be seen...",
+      "gunFileName": "gun.png"
     },
     "obliterator": {
       "name": "obliterator",
@@ -2675,7 +2942,8 @@
       "price": 1000000,
       "swordFileName": "obliteratorSword.png",
       "bodyFileName": "obliteratorPlayer.png",
-      "description": "Death is inevitable."
+      "description": "Death is inevitable.",
+      "gunFileName": "gun.png"
     },
     "frostconjurer": {
       "name": "frostconjurer",
@@ -2685,7 +2953,8 @@
       "price": 22500,
       "swordFileName": "frostconjurerSword.png",
       "bodyFileName": "frostconjurerPlayer.png",
-      "description": "It's a cold world out there"
+      "description": "It's a cold world out there",
+      "gunFileName": "gun.png"
     },
     "basketballv2": {
       "name": "basketballv2",
@@ -2695,7 +2964,8 @@
       "price": 75,
       "swordFileName": "basketballv2Sword.png",
       "bodyFileName": "basketballv2Player.png",
-      "description": "Shoot some hoops and stab some enemies!"
+      "description": "Shoot some hoops and stab some enemies!",
+      "gunFileName": "gun.png"
     },
     "bit": {
       "name": "bit",
@@ -2705,7 +2975,8 @@
       "price": 800,
       "swordFileName": "bitSword.png",
       "bodyFileName": "bitPlayer.png",
-      "description": "Keeping it retro!"
+      "description": "Keeping it retro!",
+      "gunFileName": "gun.png"
     },
     "leafpile": {
       "name": "leafpile",
@@ -2715,7 +2986,8 @@
       "price": 500,
       "swordFileName": "leafpileSword.png",
       "bodyFileName": "leafpilePlayer.png",
-      "description": "A portable alternative to hiding in trees!"
+      "description": "A portable alternative to hiding in trees!",
+      "gunFileName": "gun.png"
     },
     "necromancer": {
       "name": "necromancer",
@@ -2725,7 +2997,8 @@
       "price": 4000,
       "swordFileName": "necromancerSword.png",
       "bodyFileName": "necromancerPlayer.png",
-      "description": "I can never die!"
+      "description": "I can never die!",
+      "gunFileName": "gun.png"
     },
     "flameconjurer": {
       "name": "flameconjurer",
@@ -2735,7 +3008,8 @@
       "price": 5250,
       "swordFileName": "flameconjurerSword.png",
       "bodyFileName": "flameconjurerPlayer.png",
-      "description": "The flame never stops burning..."
+      "description": "The flame never stops burning...",
+      "gunFileName": "gun.png"
     },
     "steel": {
       "name": "steel",
@@ -2745,7 +3019,8 @@
       "price": 1000,
       "swordFileName": "steelSword.png",
       "bodyFileName": "steelPlayer.png",
-      "description": "Shiny and polished!"
+      "description": "Shiny and polished!",
+      "gunFileName": "gun.png"
     },
     "frosthologram": {
       "name": "frosthologram",
@@ -2758,7 +3033,8 @@
       "swordFileName": "winterHologramSword.png",
       "bodyFileName": "winterHologramPlayer.png",
       "description": "Perhaps nothing more than a hallucination from the frigidness...",
-      "eventoffsale": true
+      "eventoffsale": true,
+      "gunFileName": "gun.png"
     },
     "ultrafrostninja": {
       "eventoffsale": true,
@@ -2770,7 +3046,8 @@
       "price": 27777,
       "swordFileName": "winterFrostninjaSword.png",
       "bodyFileName": "winterFrostninjaPlayer.png",
-      "description": "A fierce warrior and frigid conjurer."
+      "description": "A fierce warrior and frigid conjurer.",
+      "gunFileName": "gun.png"
     },
     "frozenvoid": {
       "name": "frozenvoid",
@@ -2783,7 +3060,8 @@
       "swordFileName": "winterVoidSword.png",
       "bodyFileName": "winterVoidPlayer.png",
       "description": "A vast emptiness of ice and frigid winds...",
-      "eventoffsale": true
+      "eventoffsale": true,
+      "gunFileName": "gun.png"
     },
     "blueandwhite": {
       "name": "blueandwhite",
@@ -2796,7 +3074,8 @@
       "swordFileName": "winterBlackandwhiteSword.png",
       "bodyFileName": "winterBlackandwhitePlayer.png",
       "description": "A balance between ice and snow",
-      "eventoffsale": true
+      "eventoffsale": true,
+      "gunFileName": "gun.png"
     },
     "icicle": {
       "name": "icicle",
@@ -2809,7 +3088,8 @@
       "swordFileName": "winterIcicleSword.png",
       "bodyFileName": "winterIciclePlayer.png",
       "description": "I think it's a bit cold outside",
-      "eventoffsale": true
+      "eventoffsale": true,
+      "gunFileName": "gun.png"
     },
     "icelord": {
       "name": "icelord",
@@ -2822,7 +3102,8 @@
       "swordFileName": "winterIcelordSword.png",
       "bodyFileName": "winterIcelordPlayer.png",
       "description": "The freezer of necromancers, summoner of glaciers, and hoarder of coins.",
-      "eventoffsale": true
+      "eventoffsale": true,
+      "gunFileName": "gun.png"
     },
     "cryonecromancer": {
       "name": "cryonecromancer",
@@ -2835,7 +3116,8 @@
       "swordFileName": "winterNecromancerSword.png",
       "bodyFileName": "winterNecromancerPlayer.png",
       "description": "When a magic force freezes something multiple times, cryorock is formed.",
-      "eventoffsale": true
+      "eventoffsale": true,
+      "gunFileName": "gun.png"
     },
     "coldcarl": {
       "eventoffsale": true,
@@ -2847,7 +3129,8 @@
       "price": 1250,
       "swordFileName": "winterCoolcarlSword.png",
       "bodyFileName": "winterCoolcarlPlayer.png",
-      "description": "He's just cold like that."
+      "description": "He's just cold like that.",
+      "gunFileName": "gun.png"
     },
     "frozen": {
       "name": "frozen",
@@ -2860,7 +3143,8 @@
       "bodyFileName": "winterFrozenPlayer.png",
       "description": "At least I'm well-preserved!",
       "tokenprice": 500,
-      "eventoffsale": true
+      "eventoffsale": true,
+      "gunFileName": "gun.png"
     },
     "winterv2": {
       "name": "winterv2",
@@ -2870,7 +3154,8 @@
       "price": 150,
       "swordFileName": "winterWinterSword.png",
       "bodyFileName": "winterWinterPlayer.png",
-      "description": "Winter is here!"
+      "description": "Winter is here!",
+      "gunFileName": "gun.png"
     },
     "festive": {
       "name": "festive",
@@ -2882,7 +3167,8 @@
       "swordFileName": "winterFestiveSword.png",
       "bodyFileName": "winterFestivePlayer.png",
       "description": "Freebie skin for playing during the winter event!",
-      "eventoffsale": true
+      "eventoffsale": true,
+      "gunFileName": "gun.png"
     },
     "snowfieldsharpshooter": {
       "eventoffsale": true,
@@ -2894,7 +3180,8 @@
       "price": 111111,
       "swordFileName": "winterSharpshooterSword.png",
       "bodyFileName": "winterSharpshooterPlayer.png",
-      "description": "Oh, you said “sword” battle?"
+      "description": "Oh, you said “sword” battle?",
+      "gunFileName": "gun.png"
     },
     "scythev2": {
       "name": "scythev2",
@@ -2904,7 +3191,8 @@
       "price": 40000,
       "swordFileName": "scythev2Sword.png",
       "bodyFileName": "scythev2Player.png",
-      "description": "Scythes are always better than swords..."
+      "description": "Scythes are always better than swords...",
+      "gunFileName": "gun.png"
     },
     "yetiscythe": {
       "name": "yetiscythe",
@@ -2917,7 +3205,8 @@
       "swordFileName": "winterScytheSword.png",
       "bodyFileName": "winterScythePlayer.png",
       "description": "I guess yetis aren't a myth...",
-      "eventoffsale": true
+      "eventoffsale": true,
+      "gunFileName": "gun.png"
     },
     "pinetreecamo": {
       "eventoffsale": true,
@@ -2929,7 +3218,8 @@
       "price": 7777,
       "swordFileName": "winterCamoSword.png",
       "bodyFileName": "winterCamoPlayer.png",
-      "description": "“Why is that tree moving?”"
+      "description": "“Why is that tree moving?”",
+      "gunFileName": "gun.png"
     },
     "fire": {
       "name": "fire",
@@ -2939,7 +3229,8 @@
       "price": 700,
       "swordFileName": "fireSword.png",
       "bodyFileName": "firePlayer.png",
-      "description": "🔥🔥🔥🔥🔥"
+      "description": "🔥🔥🔥🔥🔥",
+      "gunFileName": "gun.png"
     },
     "cryofire": {
       "name": "cryofire",
@@ -2952,7 +3243,8 @@
       "swordFileName": "winterFireSword.png",
       "bodyFileName": "winterFirePlayer.png",
       "description": "Burn and freeze your enemies at the same time!",
-      "eventoffsale": true
+      "eventoffsale": true,
+      "gunFileName": "gun.png"
     },
     "waterconjurer": {
       "name": "waterconjurer",
@@ -2962,7 +3254,8 @@
       "price": 650,
       "swordFileName": "waterSword.png",
       "bodyFileName": "waterPlayer.png",
-      "description": "💧💧💧💧💧"
+      "description": "💧💧💧💧💧",
+      "gunFileName": "gun.png"
     },
     "iceconjurer": {
       "name": "iceconjurer",
@@ -2975,7 +3268,8 @@
       "swordFileName": "winterWaterSword.png",
       "bodyFileName": "winterWaterPlayer.png",
       "description": "🧊🧊🧊🧊🧊",
-      "eventoffsale": true
+      "eventoffsale": true,
+      "gunFileName": "gun.png"
     },
     "hotchocolate": {
       "eventoffsale": true,
@@ -2987,7 +3281,8 @@
       "price": 250,
       "swordFileName": "winterTeaSword.png",
       "bodyFileName": "winterTeaPlayer.png",
-      "description": "Great for cold days!"
+      "description": "Great for cold days!",
+      "gunFileName": "gun.png"
     },
     "emoticon": {
       "name": "emoticon",
@@ -2997,7 +3292,8 @@
       "price": 300,
       "swordFileName": "emoticonSword.png",
       "bodyFileName": "emoticonPlayer.png",
-      "description": ":v"
+      "description": ":v",
+      "gunFileName": "gun.png"
     },
     "unknownrune": {
       "name": "unknownrune",
@@ -3010,7 +3306,8 @@
       "swordFileName": "winterUnknownSword.png",
       "bodyFileName": "winterUnknownPlayer.png",
       "description": "Who snows?",
-      "eventoffsale": true
+      "eventoffsale": true,
+      "gunFileName": "gun.png"
     },
     "candycane": {
       "name": "candycane",
@@ -3023,7 +3320,8 @@
       "swordFileName": "winterCaneSword.png",
       "bodyFileName": "winterCanePlayer.png",
       "description": "Stab with stripes!",
-      "eventoffsale": true
+      "eventoffsale": true,
+      "gunFileName": "gun.png"
     },
     "ornament": {
       "name": "ornament",
@@ -3036,7 +3334,8 @@
       "swordFileName": "winterOrnamentSword.png",
       "bodyFileName": "winterOrnamentPlayer.png",
       "description": "Don't drop it!",
-      "eventoffsale": true
+      "eventoffsale": true,
+      "gunFileName": "gun.png"
     },
     "christmas": {
       "eventoffsale": true,
@@ -3048,7 +3347,8 @@
       "price": 0,
       "swordFileName": "winterChristmasSword.png",
       "bodyFileName": "winterChristmasPlayer.png",
-      "description": "Freebie skin for playing on Christmas!"
+      "description": "Freebie skin for playing on Christmas!",
+      "gunFileName": "gun.png"
     },
     "pharaoh": {
       "ultimate": true,
@@ -3061,7 +3361,8 @@
       "swordFileName": "ultimateMummySword.png",
       "bodyFileName": "ultimateMummyPlayer.png",
       "description": "Reincarnated only to be fighting peasants...",
-      "original": 111
+      "original": 111,
+      "gunFileName": "gun.png"
     },
     "mechamystery": {
       "ultimate": true,
@@ -3074,7 +3375,8 @@
       "swordFileName": "ultimateUnknownSword.png",
       "bodyFileName": "ultimateUnknownPlayer.png",
       "description": "Error: unexpected character '?'",
-      "original": 260
+      "original": 260,
+      "gunFileName": "gun.png"
     },
     "cyberlight": {
       "ultimate": true,
@@ -3087,7 +3389,8 @@
       "swordFileName": "ultimatenewNinjaSword.png",
       "bodyFileName": "ultimatenewNinjaPlayer.png",
       "description": "Camouflage isn't needed when your enemies are too scared to attack you...",
-      "original": 268
+      "original": 268,
+      "gunFileName": "gun.png"
     },
     "megamoticon": {
       "ultimate": true,
@@ -3100,7 +3403,8 @@
       "price": 500000,
       "swordFileName": "ultimateEmoticonSword.png",
       "bodyFileName": "ultimateEmoticonPlayer.png",
-      "description": ">:V"
+      "description": ">:V",
+      "gunFileName": "gun.png"
     },
     "rainbowvoid": {
       "ultimate": true,
@@ -3113,7 +3417,8 @@
       "swordFileName": "ultimateVoidSword.png",
       "bodyFileName": "ultimateVoidPlayer.png",
       "description": "Wanted to be dark and depressing but instead became part of someone's gaming setup",
-      "original": 211
+      "original": 211,
+      "gunFileName": "gun.png"
     },
     "nightberry": {
       "ultimate": true,
@@ -3126,7 +3431,8 @@
       "swordFileName": "ultimateBlueberrySword.png",
       "bodyFileName": "ultimateBlueberryPlayer.png",
       "description": "You probably shouldn't eat this one",
-      "original": 227
+      "original": 227,
+      "gunFileName": "gun.png"
     },
     "truebit": {
       "ultimate": true,
@@ -3139,7 +3445,8 @@
       "swordFileName": "ultimateBitSword.png",
       "bodyFileName": "ultimateBitPlayer.png",
       "description": "Now with 3300% less pixels!",
-      "original": 276
+      "original": 276,
+      "gunFileName": "gun.png"
     },
     "egg": {
       "name": "egg",
@@ -3149,7 +3456,8 @@
       "price": 90,
       "swordFileName": "eggSword.png",
       "bodyFileName": "eggPlayer.png",
-      "description": "“You better scramble like an egg before you get folded like an omelet”"
+      "description": "“You better scramble like an egg before you get folded like an omelet”",
+      "gunFileName": "gun.png"
     },
     "rainbowluminous": {
       "ultimate": true,
@@ -3162,7 +3470,8 @@
       "swordFileName": "ultimateLuminousSword.png",
       "bodyFileName": "ultimateLuminousPlayer.png",
       "description": "Even brighter than before!",
-      "original": 247
+      "original": 247,
+      "gunFileName": "gun.png"
     },
     "rainbowfire": {
       "ultimate": true,
@@ -3175,7 +3484,8 @@
       "swordFileName": "ultimateFireSword.png",
       "bodyFileName": "ultimateFirePlayer.png",
       "description": "Every color burns hotter than the last...",
-      "original": 296
+      "original": 296,
+      "gunFileName": "gun.png"
     },
     "deadpixel": {
       "ultimate": true,
@@ -3188,7 +3498,8 @@
       "swordFileName": "ultimatePixelSword.png",
       "bodyFileName": "ultimatePixelPlayer.png",
       "description": "A dark pixel in a world of light ones",
-      "original": 210
+      "original": 210,
+      "gunFileName": "gun.png"
     },
     "shattermech": {
       "ultimate": true,
@@ -3201,7 +3512,8 @@
       "price": 200000,
       "swordFileName": "ultimateBrokenSword.png",
       "bodyFileName": "ultimateBrokenPlayer.png",
-      "description": "Once shattered by others, and now the shatterer of others..."
+      "description": "Once shattered by others, and now the shatterer of others...",
+      "gunFileName": "gun.png"
     },
     "skillz": {
       "name": "skillz",
@@ -3211,7 +3523,8 @@
       "price": 100000,
       "swordFileName": "vipSkillzSword.png",
       "bodyFileName": "vipSkillzPlayer.png",
-      "description": "Given to Skillz for becoming a #5 all-time player. Also available to other players for 100k gems."
+      "description": "Given to Skillz for becoming a #5 all-time player. Also available to other players for 100k gems.",
+      "gunFileName": "gun.png"
     },
     "amethyst": {
       "name": "amethyst",
@@ -3221,7 +3534,8 @@
       "price": 100000,
       "swordFileName": "vipAmethystSword.png",
       "bodyFileName": "vipAmethystPlayer.png",
-      "description": "Given to Amethyst for becoming a #5 all-time player. Also available to other players for 100k gems."
+      "description": "Given to Amethyst for becoming a #5 all-time player. Also available to other players for 100k gems.",
+      "gunFileName": "gun.png"
     },
     "frager": {
       "name": "frager",
@@ -3231,7 +3545,8 @@
       "price": 100000,
       "swordFileName": "vipFragerSword.png",
       "bodyFileName": "vipFragerPlayer.png",
-      "description": "Given to Frager for contributing to the community and Swordbattle as a whole. Also available to other players for 100k gems."
+      "description": "Given to Frager for contributing to the community and Swordbattle as a whole. Also available to other players for 100k gems.",
+      "gunFileName": "gun.png"
     },
     "oyoyoy": {
       "name": "oyoyoy",
@@ -3241,7 +3556,8 @@
       "price": 100000,
       "swordFileName": "vipOyoyoySword.png",
       "bodyFileName": "vipOyoyoyPlayer.png",
-      "description": "Given to Oyoyoy for becoming the #1 player of all time! Also available to other players for 100k gems."
+      "description": "Given to Oyoyoy for becoming the #1 player of all time! Also available to other players for 100k gems.",
+      "gunFileName": "gun.png"
     },
     "corrupted": {
       "ultimate": true,
@@ -3254,7 +3570,8 @@
       "swordFileName": "ultimateCorruptionSword.png",
       "bodyFileName": "ultimateCorruptionPlayer.png",
       "description": "Some battles may still be won, but the war has been lost...",
-      "original": 187
+      "original": 187,
+      "gunFileName": "gun.png"
     },
     "antimagma": {
       "name": "antimagma",
@@ -3264,7 +3581,8 @@
       "price": 1750,
       "swordFileName": "antimagmaSword.png",
       "bodyFileName": "antimagmaPlayer.png",
-      "description": "Even hotter than magma, but also colder than ice."
+      "description": "Even hotter than magma, but also colder than ice.",
+      "gunFileName": "gun.png"
     },
     "fractal": {
       "name": "fractal",
@@ -3275,7 +3593,8 @@
       "price": 0,
       "swordFileName": "sword.png",
       "bodyFileName": "fractalPlayer.png",
-      "description": "Not available for sale."
+      "description": "Not available for sale.",
+      "gunFileName": "gun.png"
     },
     "crystallized": {
       "name": "crystallized",
@@ -3286,7 +3605,8 @@
       "price": 0,
       "swordFileName": "sword.png",
       "bodyFileName": "crystallizedPlayer.png",
-      "description": "Not available for sale."
+      "description": "Not available for sale.",
+      "gunFileName": "gun.png"
     },
     "square": {
       "name": "square",
@@ -3298,7 +3618,8 @@
       "price": 0,
       "swordFileName": "squareSword.png",
       "bodyFileName": "squarePlayer.png",
-      "description": "Freebie skin for playing during the April Fools event!"
+      "description": "Freebie skin for playing during the April Fools event!",
+      "gunFileName": "gun.png"
     },
     "thorn": {
       "ultimate": true,
@@ -3311,7 +3632,8 @@
       "swordFileName": "ultimateSpringSword.png",
       "bodyFileName": "ultimateSpringPlayer.png",
       "description": "Really sharp!",
-      "original": 12
+      "original": 12,
+      "gunFileName": "gun.png"
     },
     "dystopian": {
       "name": "dystopian",
@@ -3321,7 +3643,8 @@
       "price": 0,
       "swordFileName": "unreleasedDystopianSword.png",
       "bodyFileName": "unreleasedDystopianPlayer.png",
-      "description": "Not available for sale."
+      "description": "Not available for sale.",
+      "gunFileName": "gun.png"
     },
     "firepattern": {
       "name": "firepattern",
@@ -3331,7 +3654,8 @@
       "price": 1250,
       "swordFileName": "firepatternSword.png",
       "bodyFileName": "firepatternPlayer.png",
-      "description": "A symmetrical formation made of magma and flames."
+      "description": "A symmetrical formation made of magma and flames.",
+      "gunFileName": "gun.png"
     },
     "waterpattern": {
       "ultimate": true,
@@ -3344,7 +3668,8 @@
       "swordFileName": "ultimateFirepatternSword.png",
       "bodyFileName": "ultimateFirepatternPlayer.png",
       "description": "An entire ocean crystallized and shrunk into this gemstone.",
-      "original": 336
+      "original": 336,
+      "gunFileName": "gun.png"
     },
     "jagged": {
       "name": "jagged",
@@ -3354,7 +3679,8 @@
       "price": 7777,
       "swordFileName": "jaggedSword.png",
       "bodyFileName": "jaggedPlayer.png",
-      "description": "Every part is as sharp as can be..."
+      "description": "Every part is as sharp as can be...",
+      "gunFileName": "gun.png"
     },
     "nugget": {
       "name": "nugget",
@@ -3364,7 +3690,8 @@
       "price": 100,
       "swordFileName": "nuggetSword.png",
       "bodyFileName": "nuggetPlayer.png",
-      "description": "Too processed to be called a “chicken” nugget."
+      "description": "Too processed to be called a “chicken” nugget.",
+      "gunFileName": "gun.png"
     },
     "bamboo": {
       "name": "bamboo",
@@ -3374,7 +3701,8 @@
       "price": 3000,
       "swordFileName": "bambooSword.png",
       "bodyFileName": "bambooPlayer.png",
-      "description": "Sturdy enough to fight with"
+      "description": "Sturdy enough to fight with",
+      "gunFileName": "gun.png"
     },
     "soda": {
       "name": "soda",
@@ -3384,7 +3712,8 @@
       "price": 2000,
       "swordFileName": "sodaSword.png",
       "bodyFileName": "sodaPlayer.png",
-      "description": "A refreshing drink to have after a long battle!"
+      "description": "A refreshing drink to have after a long battle!",
+      "gunFileName": "gun.png"
     },
     "magev2": {
       "name": "magev2",
@@ -3394,7 +3723,8 @@
       "price": 20000,
       "swordFileName": "stealthmageSword.png",
       "bodyFileName": "stealthmagePlayer.png",
-      "description": "Only use your magic when you need it most..."
+      "description": "Only use your magic when you need it most...",
+      "gunFileName": "gun.png"
     },
     "tumbleweed": {
       "name": "tumbleweed",
@@ -3404,7 +3734,8 @@
       "price": 40000,
       "swordFileName": "tumbleweedSword.png",
       "bodyFileName": "tumbleweedPlayer.png",
-      "description": "Tumble into battle!"
+      "description": "Tumble into battle!",
+      "gunFileName": "gun.png"
     },
     "sugar": {
       "name": "sugar",
@@ -3414,7 +3745,8 @@
       "price": 850,
       "swordFileName": "sugarSword.png",
       "bodyFileName": "sugarPlayer.png",
-      "description": "Don't eat too much"
+      "description": "Don't eat too much",
+      "gunFileName": "gun.png"
     },
     "bolt": {
       "name": "bolt",
@@ -3424,7 +3756,8 @@
       "price": 1500,
       "swordFileName": "boltSword.png",
       "bodyFileName": "boltPlayer.png",
-      "description": "Strike so fast, you'll leave all your enemies shocked!"
+      "description": "Strike so fast, you'll leave all your enemies shocked!",
+      "gunFileName": "gun.png"
     },
     "sloth": {
       "name": "sloth",
@@ -3434,7 +3767,8 @@
       "price": 4000,
       "swordFileName": "slothSword.png",
       "bodyFileName": "slothPlayer.png",
-      "description": "Slow and steady wins the race"
+      "description": "Slow and steady wins the race",
+      "gunFileName": "gun.png"
     },
     "arcticsoldier": {
       "name": "arcticsoldier",
@@ -3444,7 +3778,8 @@
       "price": 8000,
       "swordFileName": "arcticsoldierSword.png",
       "bodyFileName": "arcticsoldierPlayer.png",
-      "description": "Even in the coldest weather, you must finish the fight"
+      "description": "Even in the coldest weather, you must finish the fight",
+      "gunFileName": "gun.png"
     },
     "snowball": {
       "name": "snowball",
@@ -3454,7 +3789,8 @@
       "price": 1250,
       "swordFileName": "snowballSword.png",
       "bodyFileName": "snowballPlayer.png",
-      "description": "Throw snowballs and swords at the same time!"
+      "description": "Throw snowballs and swords at the same time!",
+      "gunFileName": "gun.png"
     },
     "blackhole": {
       "ultimate": true,
@@ -3467,7 +3803,8 @@
       "price": 400000,
       "swordFileName": "blackholeSword.png",
       "bodyFileName": "blackholePlayer.png",
-      "description": "Why have a solar system, when you can have a GALAXY?!"
+      "description": "Why have a solar system, when you can have a GALAXY?!",
+      "gunFileName": "gun.png"
     },
     "haunted": {
       "ultimate": true,
@@ -3480,7 +3817,8 @@
       "price": 25000,
       "swordFileName": "ultimatePossessedSword.png",
       "bodyFileName": "ultimatePossessedPlayer.png",
-      "description": "The spirits are ready to fight back."
+      "description": "The spirits are ready to fight back.",
+      "gunFileName": "gun.png"
     },
     "colorful": {
       "name": "colorful",
@@ -3490,7 +3828,8 @@
       "price": 25,
       "swordFileName": "colorfulSword.png",
       "bodyFileName": "colorfulPlayer.png",
-      "description": "Very vibrant"
+      "description": "Very vibrant",
+      "gunFileName": "gun.png"
     },
     "skullv2": {
       "ultimate": true,
@@ -3503,7 +3842,8 @@
       "swordFileName": "ultimateSkeletonSword.png",
       "bodyFileName": "ultimateSkeletonPlayer.png",
       "description": "Sends shivers down your spine",
-      "original": 180
+      "original": 180,
+      "gunFileName": "gun.png"
     },
     "turtle": {
       "name": "turtle",
@@ -3513,7 +3853,8 @@
       "price": 15000,
       "swordFileName": "turtleSword.png",
       "bodyFileName": "turtlePlayer.png",
-      "description": "The true tank"
+      "description": "The true tank",
+      "gunFileName": "gun.png"
     },
     "wave": {
       "name": "wave",
@@ -3523,7 +3864,8 @@
       "price": 5500,
       "swordFileName": "unreleasedWaveSword.png",
       "bodyFileName": "unreleasedWavePlayer.png",
-      "description": "The small waves are relaxing, but the big waves are deadly."
+      "description": "The small waves are relaxing, but the big waves are deadly.",
+      "gunFileName": "gun.png"
     },
     "clockwork": {
       "ultimate": true,
@@ -3536,7 +3878,8 @@
       "price": 750000,
       "swordFileName": "ultimateSteampunkSword.png",
       "bodyFileName": "ultimateSteampunkPlayer.png",
-      "description": "Time is running out."
+      "description": "Time is running out.",
+      "gunFileName": "gun.png"
     },
     "gingerbreadman": {
       "ultimate": true,
@@ -3549,7 +3892,8 @@
       "price": 2000,
       "swordFileName": "ultimateGingerbreadSword.png",
       "bodyFileName": "ultimateGingerbreadPlayer.png",
-      "description": "Don't get eaten!"
+      "description": "Don't get eaten!",
+      "gunFileName": "gun.png"
     },
     "deathdragon": {
       "ultimate": true,
@@ -3562,7 +3906,8 @@
       "price": 1000000,
       "swordFileName": "ultimateBonedragonSword.png",
       "bodyFileName": "ultimateBonedragonPlayer.png",
-      "description": "A beast with the power of all that have fallen..."
+      "description": "A beast with the power of all that have fallen...",
+      "gunFileName": "gun.png"
     },
     "possessed": {
       "name": "possessed",
@@ -3572,7 +3917,8 @@
       "price": 3250,
       "swordFileName": "possessedSword.png",
       "bodyFileName": "possessedPlayer.png",
-      "description": "Overtaken by something spectral..."
+      "description": "Overtaken by something spectral...",
+      "gunFileName": "gun.png"
     },
     "arachnev2": {
       "ultimate": true,
@@ -3585,7 +3931,8 @@
       "swordFileName": "ultimateAphidnewSword.png",
       "bodyFileName": "ultimateAphidnewPlayer.png",
       "description": "A deadly spider turned into a vicious neon monster",
-      "original": 377
+      "original": 377,
+      "gunFileName": "gun.png"
     },
     "emeraldwater": {
       "name": "emeraldwater",
@@ -3595,7 +3942,8 @@
       "price": 6250,
       "swordFileName": "emeraldwaterSword.png",
       "bodyFileName": "emeraldwaterPlayer.png",
-      "description": "A mixture of water and dissolved gems"
+      "description": "A mixture of water and dissolved gems",
+      "gunFileName": "gun.png"
     },
     "vibrant": {
       "ultimate": true,
@@ -3608,7 +3956,8 @@
       "swordFileName": "ultimateColorfulSword.png",
       "bodyFileName": "ultimateColorfulPlayer.png",
       "description": "Very colorful",
-      "original": 352
+      "original": 352,
+      "gunFileName": "gun.png"
     },
     "vanguard": {
       "ultimate": true,
@@ -3621,7 +3970,8 @@
       "price": 100000,
       "swordFileName": "ultimateEliminatornewSword.png",
       "bodyFileName": "ultimateEliminatornewPlayer.png",
-      "description": "The creator of all things neon!"
+      "description": "The creator of all things neon!",
+      "gunFileName": "gun.png"
     },
     "emeraldwarrior": {
       "ultimate": true,
@@ -3634,7 +3984,8 @@
       "price": 350000,
       "swordFileName": "ultimateEmeraldwaterSword.png",
       "bodyFileName": "ultimatenewEmeraldwaterPlayer.png",
-      "description": "Forged from emeraldwater."
+      "description": "Forged from emeraldwater.",
+      "gunFileName": "gun.png"
     },
     "grass": {
       "name": "grass",
@@ -3644,7 +3995,8 @@
       "price": 7777,
       "swordFileName": "grassSword.png",
       "bodyFileName": "grassPlayer.png",
-      "description": "Well, well, well..."
+      "description": "Well, well, well...",
+      "gunFileName": "gun.png"
     },
     "truegrass": {
       "ultimate": true,
@@ -3658,7 +4010,8 @@
       "swordFileName": "tileEarthSword-spring.png",
       "bodyFileName": "tileEarthPlayer-spring.png",
       "description": "Dynamically changes with the current grass texture.",
-      "original": 369
+      "original": 369,
+      "gunFileName": "gun.png"
     },
     "truesnow": {
       "ultimate": true,
@@ -3672,7 +4025,8 @@
       "swordFileName": "tileIceSword.png",
       "bodyFileName": "tileIcePlayer.png",
       "description": "Dynamically changes with the current snow texture.",
-      "original": 349
+      "original": 349,
+      "gunFileName": "gun.png"
     },
     "magma": {
       "name": "magma",
@@ -3682,7 +4036,8 @@
       "price": 3750,
       "swordFileName": "magmaSword.png",
       "bodyFileName": "magmaPlayer.png",
-      "description": "Molten rock material within the earth from which igneous rock is formed on cooling"
+      "description": "Molten rock material within the earth from which igneous rock is formed on cooling",
+      "gunFileName": "gun.png"
     },
     "truelava": {
       "ultimate": true,
@@ -3696,7 +4051,8 @@
       "swordFileName": "tileFireSword-spring.png",
       "bodyFileName": "tileFirePlayer-spring.png",
       "description": "Dynamically changes with the current lava texture.",
-      "original": 372
+      "original": 372,
+      "gunFileName": "gun.png"
     },
     "truewater": {
       "ultimate": true,
@@ -3710,7 +4066,8 @@
       "swordFileName": "tileWaterSword-spring.png",
       "bodyFileName": "tileWaterPlayer-spring.png",
       "description": "Dynamically changes with the current water texture.",
-      "original": 358
+      "original": 358,
+      "gunFileName": "gun.png"
     },
     "virtual": {
       "ultimate": true,
@@ -3723,7 +4080,8 @@
       "price": 65000,
       "swordFileName": "ultimateDigitalSword.png",
       "bodyFileName": "ultimateDigitalPlayer.png",
-      "description": "Enter a new reality"
+      "description": "Enter a new reality",
+      "gunFileName": "gun.png"
     },
     "cloaked": {
       "ultimate": true,
@@ -3736,7 +4094,8 @@
       "swordFileName": "ultimateDisguisedSword.png",
       "bodyFileName": "ultimateDisguisedPlayer.png",
       "description": "Become impossible to identify while under the cloak.",
-      "original": 236
+      "original": 236,
+      "gunFileName": "gun.png"
     },
     "aphid": {
       "name": "aphid",
@@ -3746,7 +4105,8 @@
       "price": 12500,
       "swordFileName": "aphidNewSword.png",
       "bodyFileName": "aphidNewNewNewNewPlayer.png",
-      "description": "A simple creature turned into a neon anomaly"
+      "description": "A simple creature turned into a neon anomaly",
+      "gunFileName": "gun.png"
     },
     "eliminator": {
       "name": "eliminator",
@@ -3756,7 +4116,8 @@
       "price": 17500,
       "swordFileName": "eliminatorSword.png",
       "bodyFileName": "eliminatorPlayer.png",
-      "description": "The only thing left behind by the eliminator is the faint glow of neon."
+      "description": "The only thing left behind by the eliminator is the faint glow of neon.",
+      "gunFileName": "gun.png"
     },
     "wood": {
       "name": "wood",
@@ -3766,7 +4127,8 @@
       "price": 950,
       "swordFileName": "woodSword.png",
       "bodyFileName": "woodPlayer.png",
-      "description": "Does this skin really need an explanation?"
+      "description": "Does this skin really need an explanation?",
+      "gunFileName": "gun.png"
     },
     "darkness": {
       "ultimate": true,
@@ -3779,7 +4141,8 @@
       "price": 1500,
       "swordFileName": "ultimateAshSword.png",
       "bodyFileName": "ultimateAshPlayer.png",
-      "description": "Nothing to see here! Literally"
+      "description": "Nothing to see here! Literally",
+      "gunFileName": "gun.png"
     },
     "bishopv2": {
       "ultimate": true,
@@ -3792,7 +4155,8 @@
       "swordFileName": "ultimatePawnSwordNew.png",
       "bodyFileName": "ultimatePawnPlayerNew.png",
       "description": "Deliver the final checkmate to your opponent.",
-      "original": 188
+      "original": 188,
+      "gunFileName": "gun.png"
     },
     "stick": {
       "ultimate": true,
@@ -3805,7 +4169,8 @@
       "swordFileName": "ultimateWoodSword.png",
       "bodyFileName": "ultimateWoodPlayer.png",
       "description": "Deader than a dead bush",
-      "original": 379
+      "original": 379,
+      "gunFileName": "gun.png"
     },
     "scrapper": {
       "ultimate": true,
@@ -3818,7 +4183,8 @@
       "price": 60000,
       "swordFileName": "ultimateMetalSword.png",
       "bodyFileName": "ultimateMetalPlayer.png",
-      "description": "Composed of all the metal from \"scrapped\" swords..."
+      "description": "Composed of all the metal from \"scrapped\" swords...",
+      "gunFileName": "gun.png"
     },
     "cryolightning": {
       "ultimate": true,
@@ -3831,7 +4197,8 @@
       "swordFileName": "ultimateLightningconjurerSword.png",
       "bodyFileName": "ultimateLightningconjurerPlayer.png",
       "description": "A conjurer than can freeze lightning, able to strike at any moment.",
-      "original": 246
+      "original": 246,
+      "gunFileName": "gun.png"
     },
     "executor": {
       "name": "executor",
@@ -3844,7 +4211,8 @@
       "swordFileName": "winterEliminatorSword.png",
       "bodyFileName": "winterEliminatorPlayer.png",
       "description": "Swing the final blow.",
-      "eventoffsale": true
+      "eventoffsale": true,
+      "gunFileName": "gun.png"
     },
     "vanguardborealis": {
       "name": "vanguardborealis",
@@ -3857,7 +4225,8 @@
       "swordFileName": "winterVanguardSword.png",
       "bodyFileName": "winterVanguardPlayer.png",
       "description": "The neon lights of the north",
-      "eventoffsale": true
+      "eventoffsale": true,
+      "gunFileName": "gun.png"
     },
     "violin": {
       "name": "violin",
@@ -3867,7 +4236,8 @@
       "price": 1500,
       "swordFileName": "violinSword.png",
       "bodyFileName": "violinPlayer.png",
-      "description": "Play a sad song for the ones you defeated"
+      "description": "Play a sad song for the ones you defeated",
+      "gunFileName": "gun.png"
     },
     "fishbowl": {
       "name": "fishbowl",
@@ -3877,7 +4247,8 @@
       "price": 1750,
       "swordFileName": "fishbowlSword.png",
       "bodyFileName": "fishbowlPlayer.png",
-      "description": "Maybe don't try eating this fish"
+      "description": "Maybe don't try eating this fish",
+      "gunFileName": "gun.png"
     },
     "cheeseburger": {
       "name": "cheeseburger",
@@ -3887,7 +4258,8 @@
       "price": 2000,
       "swordFileName": "cheeseburgerSword.png",
       "bodyFileName": "cheeseburgerPlayer.png",
-      "description": "Tasty!"
+      "description": "Tasty!",
+      "gunFileName": "gun.png"
     },
     "bass": {
       "ultimate": true,
@@ -3900,7 +4272,8 @@
       "price": 6000,
       "swordFileName": "ultimateViolinSword.png",
       "bodyFileName": "ultimateViolinPlayer.png",
-      "description": "Slap them with your bass"
+      "description": "Slap them with your bass",
+      "gunFileName": "gun.png"
     },
     "fish": {
       "ultimate": true,
@@ -3913,7 +4286,8 @@
       "price": 8000,
       "swordFileName": "ultimateFishbowlSword.png",
       "bodyFileName": "ultimateFishbowlPlayer.png",
-      "description": "The real fish"
+      "description": "The real fish",
+      "gunFileName": "gun.png"
     },
     "mcbattle": {
       "ultimate": true,
@@ -3926,7 +4300,8 @@
       "price": 7000,
       "swordFileName": "ultimateCheeseburgerSword.png",
       "bodyFileName": "ultimateCheeseburgerPlayer.png",
-      "description": "Swordbattle's favorite meal, now with extra cheese!"
+      "description": "Swordbattle's favorite meal, now with extra cheese!",
+      "gunFileName": "gun.png"
     },
     "firstfrost": {
       "name": "firstfrost",
@@ -3939,7 +4314,8 @@
       "swordFileName": "winterPiguySword.png",
       "bodyFileName": "winterPiguyPlayer.png",
       "description": "The first one to brave the winter chill...",
-      "eventoffsale": true
+      "eventoffsale": true,
+      "gunFileName": "gun.png"
     },
     "future": {
       "name": "future",
@@ -3949,7 +4325,8 @@
       "price": 350,
       "swordFileName": "futureSword.png",
       "bodyFileName": "futurePlayer.png",
-      "description": "From the future, but fighting in the present."
+      "description": "From the future, but fighting in the present.",
+      "gunFileName": "gun.png"
     },
     "futurizer": {
       "ultimate": true,
@@ -3962,7 +4339,8 @@
       "price": 150000,
       "swordFileName": "ultimateFutureSword.png",
       "bodyFileName": "ultimateFuturePlayer.png",
-      "description": "Leaving everything in past tense for over -2000 years."
+      "description": "Leaving everything in past tense for over -2000 years.",
+      "gunFileName": "gun.png"
     },
     "jellyfish": {
       "name": "jellyfish",
@@ -3972,7 +4350,8 @@
       "price": 2500,
       "swordFileName": "jellyfishSword.png",
       "bodyFileName": "jellyfishPlayer.png",
-      "description": "Found in Jellyfish Fields"
+      "description": "Found in Jellyfish Fields",
+      "gunFileName": "gun.png"
     },
     "jelly": {
       "ultimate": true,
@@ -3985,7 +4364,8 @@
       "price": 75000,
       "swordFileName": "ultimateJellyfishSword.png",
       "bodyFileName": "ultimateJellyfishPlayer.png",
-      "description": "Jelly jelly jelly jelly jelly"
+      "description": "Jelly jelly jelly jelly jelly",
+      "gunFileName": "gun.png"
     },
     "pidude": {
       "name": "pidude",
@@ -3995,7 +4375,8 @@
       "price": 3141,
       "swordFileName": "pidudeSword.png",
       "bodyFileName": "pidudePlayer.png",
-      "description": "Not yet a Pi Guy, just a Pi Dude"
+      "description": "Not yet a Pi Guy, just a Pi Dude",
+      "gunFileName": "gun.png"
     },
     "pidiver": {
       "ultimate": true,
@@ -4008,7 +4389,8 @@
       "price": 2500,
       "swordFileName": "ultimatePidudeSword.png",
       "bodyFileName": "ultimatePidudePlayer.png",
-      "description": "The headquarters of all things Pi!"
+      "description": "The headquarters of all things Pi!",
+      "gunFileName": "gun.png"
     },
     "futuremancer": {
       "ultimate": true,
@@ -4021,7 +4403,8 @@
       "price": 85000,
       "swordFileName": "ultimateNecromancerSword.png",
       "bodyFileName": "ultimateNecromancerPlayer.png",
-      "description": "The future of necromancy is here!"
+      "description": "The future of necromancy is here!",
+      "gunFileName": "gun.png"
     },
     "piman": {
       "ultimate": true,
@@ -4034,7 +4417,8 @@
       "price": 314159,
       "swordFileName": "ultimatePiguySword.png",
       "bodyFileName": "ultimatePiguyPlayer.png",
-      "description": "The original Pi Guy"
+      "description": "The original Pi Guy",
+      "gunFileName": "gun.png"
     },
     "shatteredglass": {
       "ultimate": true,
@@ -4047,7 +4431,8 @@
       "price": 9000,
       "swordFileName": "ultimateStainedglassSword.png",
       "bodyFileName": "ultimateStainedglassPlayer.png",
-      "description": "Well there goes all of its value"
+      "description": "Well there goes all of its value",
+      "gunFileName": "gun.png"
     },
     "abot": {
       "name": "abot",
@@ -4057,7 +4442,8 @@
       "price": 100000,
       "swordFileName": "vipAbotSwordNew2.png",
       "bodyFileName": "vipAbotPlayer.png",
-      "description": "Given to A-bot for being a lead dev for the game!"
+      "description": "Given to A-bot for being a lead dev for the game!",
+      "gunFileName": "gun.png"
     },
     "bobthenoodle": {
       "name": "bobthenoodle",
@@ -4067,7 +4453,8 @@
       "price": 100000,
       "swordFileName": "vipBobSwordNew.png",
       "bodyFileName": "vipBobPlayer.png",
-      "description": "Given to BobTheNoodle for being a #5 all-time player."
+      "description": "Given to BobTheNoodle for being a #5 all-time player.",
+      "gunFileName": "gun.png"
     },
     "coolguy": {
       "name": "coolguy",
@@ -4077,7 +4464,8 @@
       "price": 100000,
       "swordFileName": "vipCoolguySwordNew.png",
       "bodyFileName": "vipCoolguyPlayer.png",
-      "description": "Given to cool guy 53 for being the absolute COOLEST person of all time"
+      "description": "Given to cool guy 53 for being the absolute COOLEST person of all time",
+      "gunFileName": "gun.png"
     },
     "liltim": {
       "name": "liltim",
@@ -4087,7 +4475,8 @@
       "price": 100000,
       "swordFileName": "vipGmanSword.png",
       "bodyFileName": "vipGmanPlayer.png",
-      "description": "Given to G-MAN for being an official artist for the game!"
+      "description": "Given to G-MAN for being an official artist for the game!",
+      "gunFileName": "gun.png"
     },
     "number1": {
       "name": "number1",
@@ -4097,7 +4486,8 @@
       "price": 100000,
       "swordFileName": "vipNumberSword.png",
       "bodyFileName": "vipNumberPlayer.png",
-      "description": "Given to Number1 for being a former #3 all-time player!"
+      "description": "Given to Number1 for being a former #3 all-time player!",
+      "gunFileName": "gun.png"
     },
     "marauder": {
       "name": "marauder",
@@ -4107,7 +4497,8 @@
       "price": 50000,
       "swordFileName": "marauderSword.png",
       "bodyFileName": "marauderPlayer.png",
-      "description": "Hunt them down..."
+      "description": "Hunt them down...",
+      "gunFileName": "gun.png"
     },
     "mechamarauder": {
       "ultimate": true,
@@ -4120,7 +4511,8 @@
       "price": 50000,
       "swordFileName": "ultimateMarauderSword.png",
       "bodyFileName": "ultimateNewMarauderPlayer.png",
-      "description": "Initialize Sequence SB-50. Activate Mech Protocol."
+      "description": "Initialize Sequence SB-50. Activate Mech Protocol.",
+      "gunFileName": "gun.png"
     },
     "apocalypsev2": {
       "name": "apocalypsev2",
@@ -4130,7 +4522,8 @@
       "price": 20000,
       "swordFileName": "apocalypsev2Sword.png",
       "bodyFileName": "apocalypsev2Player.png",
-      "description": "End the world"
+      "description": "End the world",
+      "gunFileName": "gun.png"
     },
     "atomic": {
       "ultimate": true,
@@ -4143,7 +4536,8 @@
       "price": 10000,
       "swordFileName": "ultimateApocalypseSword.png",
       "bodyFileName": "ultimateApocalypsePlayer.png",
-      "description": "Who knew one battler could hold this much power?"
+      "description": "Who knew one battler could hold this much power?",
+      "gunFileName": "gun.png"
     },
     "prismatic": {
       "name": "prismatic",
@@ -4153,7 +4547,8 @@
       "price": 255,
       "swordFileName": "prismaticSword.png",
       "bodyFileName": "prismaticPlayer.png",
-      "description": "Bright and colorful!"
+      "description": "Bright and colorful!",
+      "gunFileName": "gun.png"
     },
     "rainbowv2": {
       "ultimate": true,
@@ -4166,7 +4561,8 @@
       "price": 2000,
       "swordFileName": "ultimatePrismaticSword.png",
       "bodyFileName": "ultimatePrismaticPlayer.png",
-      "description": "Infinitely colorful..."
+      "description": "Infinitely colorful...",
+      "gunFileName": "gun.png"
     },
     "trippyv2": {
       "name": "trippyv2",
@@ -4176,7 +4572,8 @@
       "price": 3500,
       "swordFileName": "trippyv2Sword.png",
       "bodyFileName": "trippyv2Player.png",
-      "description": "Wear this skin and spin to give enemies headaches"
+      "description": "Wear this skin and spin to give enemies headaches",
+      "gunFileName": "gun.png"
     },
     "illusionaryv2": {
       "ultimate": true,
@@ -4189,7 +4586,8 @@
       "price": 13500,
       "swordFileName": "ultimateTrippySword.png",
       "bodyFileName": "ultimateTrippyPlayer.png",
-      "description": "Does it ever end?"
+      "description": "Does it ever end?",
+      "gunFileName": "gun.png"
     },
     "tree": {
       "name": "tree",
@@ -4199,7 +4597,8 @@
       "price": 400,
       "swordFileName": "treeSword.png",
       "bodyFileName": "treePlayer.png",
-      "description": "How does a tree even battle?"
+      "description": "How does a tree even battle?",
+      "gunFileName": "gun.png"
     },
     "treedisguise": {
       "ultimate": true,
@@ -4212,7 +4611,8 @@
       "price": 4500,
       "swordFileName": "ultimateTreeSword.png",
       "bodyFileName": "ultimateTreePlayer.png",
-      "description": "Nobody is actually falling for this but at least it looks cool"
+      "description": "Nobody is actually falling for this but at least it looks cool",
+      "gunFileName": "gun.png"
     },
     "pyromancer": {
       "name": "pyromancer",
@@ -4222,7 +4622,8 @@
       "price": 400000,
       "swordFileName": "pyromancerSword.png",
       "bodyFileName": "pyromancerPlayer.png",
-      "description": "The creator of all fire and flames."
+      "description": "The creator of all fire and flames.",
+      "gunFileName": "gun.png"
     },
     "tire": {
       "name": "tire",
@@ -4232,7 +4633,8 @@
       "price": 850,
       "swordFileName": "tireSword.png",
       "bodyFileName": "tirePlayer.png",
-      "description": "Run over your enemies"
+      "description": "Run over your enemies",
+      "gunFileName": "gun.png"
     },
     "moai": {
       "name": "moai",
@@ -4242,7 +4644,8 @@
       "price": 15000,
       "swordFileName": "moaiSword.png",
       "bodyFileName": "moaiPlayer.png",
-      "description": "🗿"
+      "description": "🗿",
+      "gunFileName": "gun.png"
     },
     "farmer v2": {
       "name": "farmer v2",
@@ -4252,7 +4655,8 @@
       "price": 5250,
       "swordFileName": "farmerv2Sword.png",
       "bodyFileName": "farmerv2Player.png",
-      "description": "Trained in the fields."
+      "description": "Trained in the fields.",
+      "gunFileName": "gun.png"
     },
     "triangles": {
       "name": "triangles",
@@ -4262,7 +4666,8 @@
       "price": 350,
       "swordFileName": "trianglesSword.png",
       "bodyFileName": "trianglesPlayer.png",
-      "description": "Attack from all angles!"
+      "description": "Attack from all angles!",
+      "gunFileName": "gun.png"
     },
     "classicfarmer": {
       "ultimate": true,
@@ -4275,7 +4680,8 @@
       "price": 4000,
       "swordFileName": "ultimateFarmerSword.png",
       "bodyFileName": "ultimateFarmerPlayer.png",
-      "description": "The OG of OGs"
+      "description": "The OG of OGs",
+      "gunFileName": "gun.png"
     },
     "ghostplayer": {
       "ultimate": true,
@@ -4288,7 +4694,8 @@
       "price": 250,
       "swordFileName": "ultimateGhostSword.png",
       "bodyFileName": "ultimateGhostPlayer.png",
-      "description": "It gleams a ghostly green glow..."
+      "description": "It gleams a ghostly green glow...",
+      "gunFileName": "gun.png"
     },
     "triangulation": {
       "ultimate": true,
@@ -4301,7 +4708,8 @@
       "price": 1500,
       "swordFileName": "ultimateTriangleSword.png",
       "bodyFileName": "ultimateTrianglePlayer.png",
-      "description": "The true use of triangles is to STAB!"
+      "description": "The true use of triangles is to STAB!",
+      "gunFileName": "gun.png"
     },
     "movie v2": {
       "name": "movie v2",
@@ -4311,7 +4719,8 @@
       "price": 6000,
       "swordFileName": "moviev2Sword.png",
       "bodyFileName": "moviev2Player.png",
-      "description": "Watch it all unfold"
+      "description": "Watch it all unfold",
+      "gunFileName": "gun.png"
     },
     "popcorn": {
       "ultimate": true,
@@ -4324,7 +4733,8 @@
       "price": 2500,
       "swordFileName": "ultimateMovieSword.png",
       "bodyFileName": "ultimateMoviePlayer.png",
-      "description": "You can't have a movie without popcorn!"
+      "description": "You can't have a movie without popcorn!",
+      "gunFileName": "gun.png"
     },
     "inverted": {
       "name": "inverted",
@@ -4334,7 +4744,8 @@
       "price": 75,
       "swordFileName": "invertedSword.png",
       "bodyFileName": "invertedPlayer.png",
-      "description": "All wrongs become rights"
+      "description": "All wrongs become rights",
+      "gunFileName": "gun.png"
     },
     "invertedknight": {
       "ultimate": true,
@@ -4347,7 +4758,8 @@
       "price": 15000,
       "swordFileName": "ultimateInvertedSword.png",
       "bodyFileName": "ultimateInvertedPlayer.png",
-      "description": "Almost as if every hit makes you stronger..."
+      "description": "Almost as if every hit makes you stronger...",
+      "gunFileName": "gun.png"
     },
     "ramen": {
       "name": "ramen",
@@ -4357,7 +4769,8 @@
       "price": 4500,
       "swordFileName": "ramenSword.png",
       "bodyFileName": "ramenPlayer.png",
-      "description": "A bowl of noodles that will never get cold!"
+      "description": "A bowl of noodles that will never get cold!",
+      "gunFileName": "gun.png"
     },
     "meatball": {
       "name": "meatball",
@@ -4367,7 +4780,8 @@
       "price": 2000,
       "swordFileName": "meatballSword.png",
       "bodyFileName": "meatballPlayer.png",
-      "description": "The best part of any spaghetti dish!"
+      "description": "The best part of any spaghetti dish!",
+      "gunFileName": "gun.png"
     },
     "shapes": {
       "name": "shapes",
@@ -4377,7 +4791,8 @@
       "price": 750,
       "swordFileName": "shapesSword.png",
       "bodyFileName": "shapesPlayer.png",
-      "description": "Attack in all ways, shapes and forms."
+      "description": "Attack in all ways, shapes and forms.",
+      "gunFileName": "gun.png"
     },
     "detective": {
       "name": "detective",
@@ -4387,7 +4802,8 @@
       "price": 30000,
       "swordFileName": "detectiveSword.png",
       "bodyFileName": "detectivePlayer.png",
-      "description": "Uncover the truth, and know the unknown."
+      "description": "Uncover the truth, and know the unknown.",
+      "gunFileName": "gun.png"
     },
     "drum": {
       "name": "drum",
@@ -4397,7 +4813,8 @@
       "price": 3000,
       "swordFileName": "drumSword.png",
       "bodyFileName": "drumPlayer.png",
-      "description": "Play the beats that bring the heat!"
+      "description": "Play the beats that bring the heat!",
+      "gunFileName": "gun.png"
     },
     "unrendered": {
       "name": "unrendered",
@@ -4407,7 +4824,8 @@
       "price": 7000,
       "swordFileName": "unrenderedSword.png",
       "bodyFileName": "unrenderedPlayer.png",
-      "description": "ERROR: Skin cannot be loaded\nㅤㅤㅤㅤㅤㅤㅤcode 1014"
+      "description": "ERROR: Skin cannot be loaded\nㅤㅤㅤㅤㅤㅤㅤcode 1014",
+      "gunFileName": "gun.png"
     },
     "tennis": {
       "name": "tennis",
@@ -4417,7 +4835,8 @@
       "price": 700,
       "swordFileName": "tennisSword.png",
       "bodyFileName": "tennisPlayer.png",
-      "description": "Game, set, match!"
+      "description": "Game, set, match!",
+      "gunFileName": "gun.png"
     },
     "golf": {
       "name": "golf",
@@ -4427,7 +4846,8 @@
       "price": 800,
       "swordFileName": "golfSword.png",
       "bodyFileName": "golfPlayer.png",
-      "description": "Hole in one!"
+      "description": "Hole in one!",
+      "gunFileName": "gun.png"
     },
     "eradicator": {
       "name": "eradicator",
@@ -4440,7 +4860,8 @@
       "swordFileName": "winterObliteratorSword.png",
       "bodyFileName": "winterObliteratorPlayer.png",
       "description": "Instant eradication.",
-      "eventoffsale": true
+      "eventoffsale": true,
+      "gunFileName": "gun.png"
     },
     "nocturnal": {
       "name": "nocturnal",
@@ -4453,7 +4874,8 @@
       "swordFileName": "winterMidnightSword.png",
       "bodyFileName": "winterMidnightPlayer.png",
       "description": "When the stars and snowfall become one",
-      "eventoffsale": true
+      "eventoffsale": true,
+      "gunFileName": "gun.png"
     },
     "supersphere": {
       "name": "supersphere",
@@ -4466,7 +4888,8 @@
       "swordFileName": "winterHypersphereSword.png",
       "bodyFileName": "winterHyperspherePlayer.png",
       "description": "A 2D visualization of a 4D sphere",
-      "eventoffsale": true
+      "eventoffsale": true,
+      "gunFileName": "gun.png"
     },
     "frostedglass": {
       "name": "frostedglass",
@@ -4479,7 +4902,8 @@
       "swordFileName": "winterStainedglassSword.png",
       "bodyFileName": "winterStainedglassPlayer.png",
       "description": "Not literally frosted glass but you get the idea",
-      "eventoffsale": true
+      "eventoffsale": true,
+      "gunFileName": "gun.png"
     },
     "igloobrick": {
       "name": "igloobrick",
@@ -4492,7 +4916,8 @@
       "swordFileName": "winterBrickSword.png",
       "bodyFileName": "winterBrickPlayer.png",
       "description": "Survive the cold!",
-      "eventoffsale": true
+      "eventoffsale": true,
+      "gunFileName": "gun.png"
     },
     "elementalninja": {
       "name": "elementalninja",
@@ -4505,7 +4930,8 @@
       "swordFileName": "winterKineticninjaSword.png",
       "bodyFileName": "winterKineticninjaPlayer.png",
       "description": "A concealed conjurer with skills of lava, lightning, ice, and more.",
-      "eventoffsale": true
+      "eventoffsale": true,
+      "gunFileName": "gun.png"
     },
     "midnightninja": {
       "name": "midnightninja",
@@ -4518,7 +4944,8 @@
       "swordFileName": "winterMidnightninjaSword.png",
       "bodyFileName": "winterMidnightninjaPlayer.png",
       "description": "Only illuminated by the moon and stars.",
-      "eventoffsale": true
+      "eventoffsale": true,
+      "gunFileName": "gun.png"
     },
     "50kfreegems": {
       "name": "50kfreegems",
@@ -4529,7 +4956,8 @@
       "currency": true,
       "swordFileName": "sword.png",
       "bodyFileName": "player.png",
-      "description": "Compensation for recent server outages"
+      "description": "Compensation for recent server outages",
+      "gunFileName": "gun.png"
     },
     "botter": {
       "name": "botter",
@@ -4539,7 +4967,8 @@
       "price": 0,
       "swordFileName": "botterSword.png",
       "bodyFileName": "botterPlayer.png",
-      "description": "The middle ground between a pro hacker and a jobless loser"
+      "description": "The middle ground between a pro hacker and a jobless loser",
+      "gunFileName": "gun.png"
     },
     "pufferfish": {
       "name": "pufferfish",
@@ -4549,7 +4978,8 @@
       "price": 3750,
       "swordFileName": "pufferfishSword.png",
       "bodyFileName": "pufferfishPlayer.png",
-      "description": "Don't get too close or you might get pricked!"
+      "description": "Don't get too close or you might get pricked!",
+      "gunFileName": "gun.png"
     },
     "geode": {
       "name": "geode",
@@ -4559,7 +4989,8 @@
       "price": 6000,
       "swordFileName": "geodeSword.png",
       "bodyFileName": "geodePlayer.png",
-      "description": "Went looking for coins and found gems instead!"
+      "description": "Went looking for coins and found gems instead!",
+      "gunFileName": "gun.png"
     },
     "starhog v2": {
       "name": "starhog v2",
@@ -4569,7 +5000,8 @@
       "price": 30000,
       "swordFileName": "starhogv2Sword.png",
       "bodyFileName": "starhogv2Player.png",
-      "description": "A hog in space doesn't seem right..."
+      "description": "A hog in space doesn't seem right...",
+      "gunFileName": "gun.png"
     },
     "andromeda": {
       "ultimate": true,
@@ -4582,7 +5014,8 @@
       "price": 2000000,
       "swordFileName": "ultimateStarhogSword.png",
       "bodyFileName": "ultimateStarhogPlayer.png",
-      "description": "Trillions of stars, trillions of planets, trillions of fates to be decided..."
+      "description": "Trillions of stars, trillions of planets, trillions of fates to be decided...",
+      "gunFileName": "gun.png"
     },
     "tiger v2": {
       "name": "tiger v2",
@@ -4592,7 +5025,8 @@
       "price": 500,
       "swordFileName": "tigerv2Sword.png",
       "bodyFileName": "tigerv2Player.png",
-      "description": "Don't get in the way of its claws..."
+      "description": "Don't get in the way of its claws...",
+      "gunFileName": "gun.png"
     },
     "comic v2": {
       "name": "comic v2",
@@ -4602,7 +5036,8 @@
       "price": 1250,
       "swordFileName": "comicv2Sword.png",
       "bodyFileName": "comicv2Player.png",
-      "description": "POW! BAM! WOW!"
+      "description": "POW! BAM! WOW!",
+      "gunFileName": "gun.png"
     },
     "shuriken v2": {
       "name": "shuriken v2",
@@ -4612,7 +5047,8 @@
       "price": 50000,
       "swordFileName": "shurikenv2Sword.png",
       "bodyFileName": "shurikenv2Player.png",
-      "description": "More than one edge."
+      "description": "More than one edge.",
+      "gunFileName": "gun.png"
     },
     "solar system v2": {
       "name": "solar system v2",
@@ -4622,7 +5058,8 @@
       "price": 100000,
       "swordFileName": "solarsystemv2Sword.png",
       "bodyFileName": "solarsystemv2Player.png",
-      "description": "The universe is at your fingertips..."
+      "description": "The universe is at your fingertips...",
+      "gunFileName": "gun.png"
     },
     "diamond v2": {
       "name": "diamond v2",
@@ -4632,7 +5069,8 @@
       "price": 80000,
       "swordFileName": "diamondSword.png",
       "bodyFileName": "diamondPlayer.png",
-      "description": "Diamond sword? Where have I heard that before..."
+      "description": "Diamond sword? Where have I heard that before...",
+      "gunFileName": "gun.png"
     },
     "shiny": {
       "name": "shiny",
@@ -4643,7 +5081,8 @@
       "price": 0,
       "swordFileName": "shinySword.png",
       "bodyFileName": "shinyPlayer.png",
-      "description": "It's almost like you're the coin!"
+      "description": "It's almost like you're the coin!",
+      "gunFileName": "gun.png"
     },
     "redshift": {
       "name": "redshift",
@@ -4654,7 +5093,8 @@
       "price": 0,
       "swordFileName": "redshiftSword.png",
       "bodyFileName": "redshiftPlayer.png",
-      "description": "Hit 'em so hard the light decreases in frequency"
+      "description": "Hit 'em so hard the light decreases in frequency",
+      "gunFileName": "gun.png"
     },
     "watercolors": {
       "name": "watercolors",
@@ -4665,7 +5105,8 @@
       "price": 0,
       "swordFileName": "watercolorsSword.png",
       "bodyFileName": "watercolorsPlayer.png",
-      "description": "The colors of the rainbow are yours to command!"
+      "description": "The colors of the rainbow are yours to command!",
+      "gunFileName": "gun.png"
     },
     "leader": {
       "name": "leader",
@@ -4676,7 +5117,8 @@
       "price": 0,
       "swordFileName": "leaderSword.png",
       "bodyFileName": "leaderPlayer.png",
-      "description": "Show them who rules the battlefield!"
+      "description": "Show them who rules the battlefield!",
+      "gunFileName": "gun.png"
     },
     "flaming": {
       "name": "flaming",
@@ -4687,7 +5129,8 @@
       "price": 0,
       "swordFileName": "flamingSword.png",
       "bodyFileName": "flamingPlayer.png",
-      "description": "Burn them to a crisp!"
+      "description": "Burn them to a crisp!",
+      "gunFileName": "gun.png"
     },
     "fragment": {
       "name": "fragment",
@@ -4698,7 +5141,8 @@
       "price": 0,
       "swordFileName": "fragmentSword.png",
       "bodyFileName": "fragmentPlayer.png",
-      "description": "Well I guess theres nothing left to shatter"
+      "description": "Well I guess theres nothing left to shatter",
+      "gunFileName": "gun.png"
     },
     "cmykluminous": {
       "name": "cmykluminous",
@@ -4709,7 +5153,8 @@
       "price": 0,
       "swordFileName": "cmykLuminousSword.png",
       "bodyFileName": "cmykLuminousPlayer.png",
-      "description": "I think my sword ran out of ink..."
+      "description": "I think my sword ran out of ink...",
+      "gunFileName": "gun.png"
     },
     "astral": {
       "name": "astral",
@@ -4720,7 +5165,8 @@
       "price": 0,
       "swordFileName": "astralSword.png",
       "bodyFileName": "astralPlayer.png",
-      "description": "“Strike from the skies?” Why not strike from the STARS?!"
+      "description": "“Strike from the skies?” Why not strike from the STARS?!",
+      "gunFileName": "gun.png"
     },
     "mountain": {
       "name": "mountain",
@@ -4731,7 +5177,8 @@
       "price": 0,
       "swordFileName": "mountainSword.png",
       "bodyFileName": "mountainPlayer.png",
-      "description": "Now THIS is peak"
+      "description": "Now THIS is peak",
+      "gunFileName": "gun.png"
     },
     "classicMountain": {
       "name": "classicMountain",
@@ -4742,7 +5189,8 @@
       "price": 0,
       "swordFileName": "classicMountainSword.png",
       "bodyFileName": "classicMountainPlayer.png",
-      "description": "They give a feeling of nostalgia that has never been experienced before"
+      "description": "They give a feeling of nostalgia that has never been experienced before",
+      "gunFileName": "gun.png"
     },
     "borealMountain": {
       "name": "borealMountain",
@@ -4753,7 +5201,8 @@
       "price": 0,
       "swordFileName": "borealMountainSword.png",
       "bodyFileName": "borealMountainPlayer.png",
-      "description": "Winter is coming"
+      "description": "Winter is coming",
+      "gunFileName": "gun.png"
     },
     "infernoMountain": {
       "name": "infernoMountain",
@@ -4764,7 +5213,8 @@
       "price": 0,
       "swordFileName": "infernoMountainSword.png",
       "bodyFileName": "infernoMountainPlayer.png",
-      "description": "Only the worst of all battlers end up here..."
+      "description": "Only the worst of all battlers end up here...",
+      "gunFileName": "gun.png"
     },
     "yinyang v2": {
       "name": "yinyang v2",
@@ -4775,7 +5225,8 @@
       "price": 0,
       "swordFileName": "yinyangv2Sword.png",
       "bodyFileName": "yinyangv2Player.png",
-      "description": "Find a balance."
+      "description": "Find a balance.",
+      "gunFileName": "gun.png"
     },
     "bullseye v2": {
       "name": "bullseye v2",
@@ -4786,7 +5237,8 @@
       "price": 0,
       "swordFileName": "bullseyev2Sword.png",
       "bodyFileName": "bullseyev2Player.png",
-      "description": "Never miss your shots!"
+      "description": "Never miss your shots!",
+      "gunFileName": "gun.png"
     },
     "bubble v2": {
       "name": "bubble v2",
@@ -4797,7 +5249,8 @@
       "price": 0,
       "swordFileName": "bubblev2Sword.png",
       "bodyFileName": "bubblev2Player.png",
-      "description": "Magical and mysterious"
+      "description": "Magical and mysterious",
+      "gunFileName": "gun.png"
     },
     "hacker v2": {
       "name": "hacker v2",
@@ -4808,7 +5261,8 @@
       "price": 0,
       "swordFileName": "hackerv2Sword.png",
       "bodyFileName": "hackerv2Player.png",
-      "description": "ℙ𝕣𝕠 𝕙𝕒𝕔𝕜𝕖𝕣"
+      "description": "ℙ𝕣𝕠 𝕙𝕒𝕔𝕜𝕖𝕣",
+      "gunFileName": "gun.png"
     }
   }
 }

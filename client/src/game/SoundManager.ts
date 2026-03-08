@@ -32,11 +32,11 @@ class SoundManager {
       [FlagTypes.ChestDestroy]: new Sound(FlagTypes.ChestDestroy, [
         'ChestDestroy/ChestDestroy1.wav', 'ChestDestroy/ChestDestroy2.wav', 'ChestDestroy/ChestDestroy3.wav',
       ]),
-      [FlagTypes.SwordSwing]: new Sound(FlagTypes.SwordSwing, [
-        'SwordSwing/SwordSwing1.wav',
+      [FlagTypes.GunShoot]: new Sound(FlagTypes.GunShoot, [
+        'GunShoot/GunShoot1.wav',
       ]),
-      [FlagTypes.SwordThrow]: new Sound(FlagTypes.SwordThrow, [
-        'SwordThrow/SwordThrow1.wav', 'SwordThrow/SwordThrow2.wav', 'SwordThrow/SwordThrow3.wav',
+      [FlagTypes.GunAltFire]: new Sound(FlagTypes.GunAltFire, [
+        'GunShoot/GunShoot1.wav',
       ]),
       [FlagTypes.PlayerKill]: new Sound(FlagTypes.PlayerKill, [
         'PlayerKill/PlayerKill1.wav', 'PlayerKill/PlayerKill2.wav', 'PlayerKill/PlayerKill3.wav',

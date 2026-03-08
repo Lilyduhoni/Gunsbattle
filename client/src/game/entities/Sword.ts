@@ -1,8 +1,5 @@
 import { random } from '../../helpers';
 import { BaseEntity } from './BaseEntity';
-import { Settings } from '../Settings';
-import * as cosmetics from '../cosmetics.json';
-const {skins} = cosmetics;
 
 class Sword extends BaseEntity {
   static stateFields = [...BaseEntity.stateFields, 'size', 'isFlying', 'abilityActive', 'skin', 'skinName', 'pullbackParticles']
@@ -14,51 +11,13 @@ class Sword extends BaseEntity {
   static shadowOffsetY = 10;
 
   createSprite() {
-    if(this.skin && !Settings.unloadSkins) {
-      const skinObj = Object.values(skins).find(skin => skin.id === this.skin)
-      this.skinName = (skinObj?.name ?? 'player')+ 'Sword';
-      if(!this.game.textures.exists(this.skinName)) {
-        if(skinObj?.swordFileName) this.dynamicLoadSword(skinObj as {swordFileName: string}, this.skinName+'');
-        this.skinName = 'playerSword';
-      }
-    } else {
-      this.skinName = 'playerSword';
-    }
+    this.skinName = 'swordProj';
     this.body = this.game.add.sprite(0, 0, this.skinName).setOrigin(-0.2, 0.5);
     const shadowKey = this.createShadowTexture(this.skinName);
     this.shadow = this.game.add.sprite(Sword.shadowOffsetX, Sword.shadowOffsetY, shadowKey).setOrigin(-0.2, 0.5);
     this.shadow.setAlpha(0.075);
     this.container = this.game.add.container(this.shape.x, this.shape.y, [this.shadow, this.body]);
     return this.container;
-  }
-
-  dynamicLoadSword(skinObj:{swordFileName: string}, skinName: string) {
-    return new Promise<void>((resolve, reject) => {
-      if(this.game.gameState.failedSkinLoads[this.skin]) return resolve();
-
-    const publicPath = process.env.PUBLIC_URL as string;
-    const basePath =  `${publicPath}/assets/game/player/${skinObj.swordFileName}`;
-    this.game.load.image(skinName, basePath);
-
-    this.game.load.once(Phaser.Loader.Events.COMPLETE, () => {
-      if (!this.body) return resolve();
-      this.skinName = skinName;
-      this.body.setTexture(this.skinName);
-      if (this.shadow) {
-        this.shadow.setTexture(this.createShadowTexture(this.skinName));
-      }
-      resolve();
-    });
-    this.game.load.once(Phaser.Loader.Events.FILE_LOAD_ERROR, () => {
-      // texture didnt load so use the placeholder
-      this.game.gameState.failedSkinLoads[this.skin] = true;
-      resolve();
-    });
-
-    this.game.load.start();
-
-    });
-
   }
 
   updateRotation() {

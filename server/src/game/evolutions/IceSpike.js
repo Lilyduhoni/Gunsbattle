@@ -19,7 +19,7 @@ module.exports = class IceSpike extends Evolution {
   }
 
   // Passive trait: dash on every sword swing
-  onSwordSwing() {
+  onGunShoot() {
     // Get the direction the player is facing
     const angle = this.player.angle;
     const dashDistance = this.constructor.dashDistance;

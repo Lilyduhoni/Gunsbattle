@@ -112,7 +112,7 @@ class Chat extends HudComponent {
       input.value = '';
       this.game.controls.enableAllKeys();
     } else {
-      this.game.controls.disableKeys([InputTypes.SwordSwing, InputTypes.SwordThrow, InputTypes.Ability]);
+      this.game.controls.disableKeys([InputTypes.Shoot, InputTypes.AltFire, InputTypes.Ability]);
     }
 
     this.isOpen = !this.isOpen;

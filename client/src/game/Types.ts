@@ -43,8 +43,8 @@ export enum FlagTypes {
   GetCoin = 4,
   ChestHit = 5,
   ChestDestroy = 6,
-  SwordSwing = 7,
-  SwordThrow = 8,
+  GunShoot = 7,
+  GunAltFire = 8,
   PlayerKill = 9,
   PlayerDeath = 10,
   ChainDamaged = 11,
@@ -122,8 +122,8 @@ export enum InputTypes {
   Right = 2,
   Down = 3,
   Left = 4,
-  SwordSwing = 5,
-  SwordThrow = 6,
+  Shoot = 5,
+  AltFire = 6,
   Ability = 7,
 }
 
